@@ -1,0 +1,224 @@
+@media only screen and (min-width: 150px) and (max-width: 480px) {
+    /*index_pages resp*/
+    .grid-container {
+        display: grid;
+        grid-template-columns: inherit;
+    }
+    .grid2 {
+        display: grid;
+        /*grid-template-columns: auto auto auto auto;*/
+    }
+    .char_height {
+        margin-top: 95px;
+        width: 100%;
+        padding-left: 11px;
+        padding-right: 14px;
+    }
+    .graph {
+        font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+        padding: 1% 0 1% 0;
+        height: 436px;
+        /* width: 437px; */
+        width: 100px;
+    }
+    .disp_no {
+        display: none;
+    }
+    /*index*/
+
+    /*alternative_pages resp*/
+    .grid_alt {
+        display: grid;
+        /* grid-template-columns: auto auto auto auto; */
+        grid-gap: 10px;
+    }
+    .box_4 {
+        width: 271px;
+    }
+    .it2 {
+        margin-top: 33px;
+    }
+    .grid_2 {
+        display: grid;
+        grid-template-columns: inherit;
+        grid-gap: 10px;
+    }
+    .m-t-0 {
+        margin-top: 0px;
+    }
+    .box_5 {
+        width: 100%;
+    }
+    /*alternative*/
+    /*stock_pages resp*/
+    .grid_3 {
+        display: contents;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+        padding: 10px;
+    }
+    .it1_st {
+        width: 100% !important;
+    }
+    .gird4_st {
+        display: contents;
+    }
+    .invent {
+        width: 251px !important;
+    }
+    .font_size_st {
+        font-size: 7px !important;
+    }
+    .ml-110 {
+        margin-left: 110px !important;
+    }
+    .pric_st {
+        padding-left: 16px;
+        padding-right: 20px;
+    }
+    /*stock*/
+    /*auth_pages resp*/
+    .gird5_st {
+        display: contents;
+    }
+    .width_auth {
+        height: 707px;
+        overflow: auto;
+        margin-left: 11px;
+    }
+    /*auth*/
+    /*pricing_pages resp*/
+    .width_pric {
+        width: 100% !important;
+        margin-top: 11px;
+    }
+    body.active .wrapper .section .price {
+        width: 100%;
+        margin: auto;
+    }
+    /*pricing*/
+    /*help_pages resp*/
+    .gird_he {
+        display: contents !important;
+    }
+    .cat_resp {
+        margin: auto;
+        padding: 35px;
+        font-size: 22px;
+        color: #d1cccc;
+        width: 100%;
+    }
+    .search {
+        width: 100%;
+    }
+    .help_search {
+        background: none;
+        width: 100%;
+        outline: none;
+        border: none;
+        padding-left: 16px;
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    /*help*/
+    /*card resp*/
+    .card_resp {
+        display: contents !important;
+    }
+    .view_img_resp {
+        padding: 0px;
+    }
+    .img_width {
+        width: 290px;
+    }
+    .card_wt {
+        width: 100% !important;
+    }
+    /*card*/
+    /*userlist_pages resp*/
+    .gird6_ul {
+        display: table;
+        background-color: #ffffff !important;
+        width: 100% !important;
+        padding: 19px;
+        border: 1px solid #cccccc;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    .wp_2 {
+        width: 215px !important;
+        margin-top: 9px;
+    }
+    .pg_font2 {
+        display: none;
+    }
+    .box_h {
+        margin-top: 14px;
+    }
+    .stock_items {
+        width: 100%;
+        text-align: left !important;
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    .title_resp {
+        margin-left: 83px;
+        width: 300px;
+        margin-top: -33px;
+        letter-spacing: 1px;
+    }
+    /*userlist*/
+    /*forms_pages resp*/
+    .mt_resp {
+        margin-top: 22px !important;
+    }
+    .bil_cst {
+        width: 48% !important;
+        margin: 0px;
+    }
+    .sele_box {
+        width: 119px;
+        height: 30px;
+        padding: 0px;
+        font-size: 13px;
+        margin-top: 7px;
+    }
+    /*profile*/
+    .pf_resp{
+        display: contents !important;
+    }
+    .top_pf{
+        margin: auto;
+        width: 58%;
+    }
+    .top_pf2{
+        width: 59%;
+        margin: auto;
+        margin-top: 88px;
+    }
+    .top_pf3{
+        width: 59%;
+        margin: auto;
+        margin-top: 107px;
+    }
+    .top_h{
+        height: 101px;
+    }
+    .imr_resp {
+    margin-top: -21px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    }
+    .top_mr{
+        margin: auto;
+    }
+    /*forms*/
+    .mt_cust{
+        margin-top: 45px;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 4256px) {
+    .mail_resp{
+        display: none;
+    }
+}
