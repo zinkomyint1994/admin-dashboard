@@ -17,9 +17,9 @@
                     <!--second part-->
                     <div class="center userlist">
                         <div>
-                            <div class="grid-container6 card_resp">
+                            <div class="grid-container6 card_resp urlist_grd">
                                 <!--card-->
-                                <div class="item1 gird6_ul">
+                                <div class="item1 gird6_ul urlist_bg">
                                     <div class="box_style card_resp" style="display: flex; width: 100%;">
                                         <div class="stock_items">
                                             <img src="../assets/images/profile.png" width="65px" style="" />
@@ -37,8 +37,8 @@
                                             <!-- <hr> -->
                                             <p class="pg_font2" style="margin-top: 18px; font-weight: initial;">45%</p>
                                         </div>
-                                        <div class="stock_items" style="text-align: center;">
-                                            <div class="fb_icons disp_no">
+                                        <div class="stock_items urlist" style="text-align: center;">
+                                            <div class="fb_icons disp_no pg_font2">
                                                 <p><i class="fab fa-google m-r12"></i></p>
                                                 <p><i class="fab fa-facebook m-r12"></i></p>
                                                 <p><i class="fab fa-instagram"></i></p>
@@ -54,7 +54,7 @@
                                 </div>
                                 <!--card-->
                                 <!--card-->
-                                <div class="item1 gird6_ul box_h">
+                                <div class="item1 gird6_ul box_h urlist_bg">
                                     <div class="box_style card_resp" style="display: flex; width: 100%;">
                                         <div class="stock_items">
                                             <img src="../assets/images/profile.png" width="65px" style="" />
@@ -73,7 +73,7 @@
                                             <p class="pg_font2" style="margin-top: 18px; font-weight: initial;">45%</p>
                                         </div>
                                         <div class="stock_items" style="text-align: center;">
-                                            <div class="fb_icons disp_no">
+                                            <div class="fb_icons disp_no pg_font2">
                                                 <p><i class="fab fa-google m-r12"></i></p>
                                                 <p><i class="fab fa-facebook m-r12"></i></p>
                                                 <p><i class="fab fa-instagram"></i></p>

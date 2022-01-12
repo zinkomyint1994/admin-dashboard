@@ -1,3 +1,11 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent; /* for remove highlight */
+}
 /**
  * whole size use this fonts
 */
@@ -9,11 +17,6 @@ body {
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-}
-*{
-padding:0;  margin:0;
-box-sizing:border-box;
--webkit-tap-highlight-color: transparent; /* for remove highlight */
 }
 [role=button]{
   cursor: pointer;
@@ -526,7 +529,7 @@ th, td {
 .chart_height{
     padding: 10px;
     height: 51%;
-    padding-right: 31px;
+   /* padding-right: 31px;*/
     margin-top: 14px;
 }
 /*chartlist2*/
@@ -883,6 +886,24 @@ width: 389px;
   background-color: #cbb;
   border-radius: 20px;
   border: transparent;
+}
+.fix_scroll{
+  /*position: fixed;
+  top: 50px;
+  right: 0;
+  left: 225px;
+  height: calc(100% - 50px);
+  overflow: auto;*/
+  height: 98vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+}
+.stock_scroll{
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  scrollbar-width: thin;
 }
 div.ex1 {
 	overflow: auto;
@@ -1243,7 +1264,11 @@ textarea{
  */
 .cir_image{
   width: 69px;
-  margin-top: -11px;
+  margin-top: 15px;
+  border-radius: 50%;
+}
+.cir_image2{
+  width: 69px;
   border-radius: 50%;
 }
 

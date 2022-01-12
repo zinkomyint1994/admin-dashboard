@@ -11,4 +11,4 @@
         <p class="m-r-15 disp_no"><i style="font-size: 21px;color: #040404;" class="fas fa-user-circle"></i></p>
     </div>
 </div>
- <p class="m-r-15 title_resp mail_resp" style="color: #040404;">zinkomyint.gamer@gmail.com</p>
+ <!-- <p class="m-r-15 title_resp mail_resp" style="color: #040404;">zinkomyint.gamer@gmail.com</p> -->

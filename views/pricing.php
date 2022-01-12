@@ -19,10 +19,10 @@
                         <!--four card-->
                         <div>
                             <div class="grid-container5 gird5_st">
-                                <div class="item1">
+                                <div class="item1 pr_wid">
                                     <div class="box_style6 width_pric" style="width: 306px; height: 505px;">
                                         <div class="dash_icons">
-                                            <img src="../assets/images/1.jpg" width="270px" />
+                                            <img src="../assets/images/1.jpg" width="270px" class="pr_img" />
                                         </div>
                                         <div class="pricing">
                                             STATER
@@ -46,10 +46,10 @@
                                     </div>
                                 </div>
 
-                                <div class="item2">
+                                <div class="item2 pr_wid">
                                     <div class="box_style6 width_pric" style="width: 306px; height: 505px;">
                                         <div class="dash_icons">
-                                            <img src="../assets/images/2.jpg" width="273px" />
+                                            <img src="../assets/images/2.jpg" width="273px" class="pr_img" />
                                         </div>
                                         <div class="pricing">
                                             GROWING
@@ -73,10 +73,10 @@
                                     </div>
                                 </div>
 
-                                <div class="item3">
+                                <div class="item3 pr_wid">
                                     <div class="box_style6 width_pric" style="width: 306px; height: 505px;">
                                         <div class="dash_icons">
-                                            <img src="../assets/images/3.jpg" width="238px" />
+                                            <img src="../assets/images/3.jpg" width="238px" class="pr_img" />
                                         </div>
                                         <div class="pricing">
                                             ENTERPRISE

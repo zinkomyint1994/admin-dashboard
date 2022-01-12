@@ -19,7 +19,7 @@
                         <!--four card-->
                         <div>
                             <div class="grid-container5 auth_center gird5_st">
-                                <div class="item1">
+                                <div class="item1 cust_cent">
                                     <div class="box_style6" style="width: 296px; height: 484px;">
                                         <img src="../assets/images/img_avatar.png" alt="profile" class="cir_image" />
                                         <p class="view_cust3">ZIN KO MYINT</p>
@@ -57,7 +57,7 @@
                                     </div>
                                 </div>
 
-                                <div class="item2">
+                                <div class="item2 cust_cent">
                                     <div class="box_style6" style="width: 296px; height: 484px;">
                                         <div class="bill_txt2">
                                             <p>Billing</p>
@@ -102,7 +102,7 @@
                                     </div>
                                 </div>
 
-                                <div class="item3" style="background: none;">
+                                <div class="item3 cust_cent" style="background: none;">
                                     <div class="box_style6" style="width: 296px; height: 223px; margin-bottom: 21px; background: #fff;">
                                         <div class="bill_txt2">
                                             <p>Billing</p>

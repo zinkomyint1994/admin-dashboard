@@ -15,11 +15,11 @@
                     <?php include('../views/inc/nav.php'); ?>
                 <!--nav-->
                 <!--mid-->
-                <div class="container">
-                    <div class="ex1">
+                <div class="container fix_scroll">
+                    <div class="">
                         <div class="center">
                             <div>
-                                <div class="grid-container4 gird_he" style="height: 780px;">
+                                <div class="grid-container4 gird_he2" style="height: 780px;">
                                     <!--form_product-->
                                     <div class="item1 card_wt" style="width: 75%; background-color: white;">
                                         <div style="display: flex;">
@@ -45,7 +45,7 @@
 
                                             <!--search-->
                                             <div class="mt_resp">
-                                                <div class="box_style7 gird_he" style="display: flex;">
+                                                <div class="box_style7 gr_no" style="display: flex;">
                                                     <div style="width: 150px;">
                                                         <h5>Microlab</h5>
                                                         <img src="../assets/images/audio.jpg" width="150px" style="margin-top: 30px;" />
@@ -62,21 +62,23 @@
                                                             <p class="forms_txt2">audio</p>
                                                         </div>
                                                     </div>
+                                                    <div>
                                                     <div class="stock_items" style="text-align: center;">
-                                                        <p class="disp_no">Price</p>
+                                                       <!--  <p class="disp_no">Price</p> -->
                                                         <select class="sele_box">
                                                             <option value="0">Select Price</option>
                                                             <option value="1">$200</option>
                                                             <option value="2">$150</option>
                                                         </select>
-                                                    </div>
+                                                    </div><br>
                                                     <div class="stock_items" style="text-align: center;">
-                                                        <p class="disp_no">Quantity</p>
+                                                      <!--   <p class="disp_no">Quantity</p> -->
                                                         <select class="sele_box">
                                                             <option value="0">Select Quantity</option>
                                                             <option value="1">1</option>
                                                             <option value="2">2</option>
                                                         </select>
+                                                    </div>
                                                     </div>
                                                     <div class="stock_items" style="text-align: center;">
                                                         <p class="disp_no">Total</p>
@@ -84,7 +86,7 @@
                                                     </div>
                                                 </div>
                                                 <!--second_box-->
-                                                <div class="box_style7 gird_he" style="display: flex;">
+                                                <div class="box_style7 gr_no" style="display: flex;">
                                                     <div style="width: 150px;">
                                                         <h5>Sony</h5>
                                                         <img src="../assets/images/audio.jpg" width="150px" style="margin-top: 30px;" />
@@ -100,6 +102,7 @@
                                                             <p class="forms_txt2">audio</p>
                                                         </div>
                                                     </div>
+                                                    <div>
                                                     <div class="stock_items" style="text-align: center;">
                                                         <select class="sele_box">
                                                             <option value="0">Select Price</option>
@@ -107,6 +110,7 @@
                                                             <option value="2">$150</option>
                                                         </select>
                                                     </div>
+                                                    <br>
                                                     <div class="stock_items" style="text-align: center;">
                                                         <select class="sele_box">
                                                             <option value="0">Select Quantity</option>
@@ -114,7 +118,9 @@
                                                             <option value="2">2</option>
                                                         </select>
                                                     </div>
+                                                </div>
                                                     <div class="stock_items" style="text-align: center;">
+                                                         <p class="disp_no">Total</p>
                                                         <p class="m-t-4 lsp">$120</p>
                                                     </div>
                                                 </div>

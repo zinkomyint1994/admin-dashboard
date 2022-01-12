@@ -13,15 +13,15 @@
           <?php include('../views/inc/nav.php'); ?>
          <!--nav-->
         <!--mid-->
-		<div class="container" style="margin:0px">
-			<div class="ex3">
+		<div class="container fix_scroll" style="margin:0px;">
+			<div class="">
 		<!--four card-->
 	<div>
 		<div style="background: #538ecc;height: 250px;">
 	<div class="grid-container pro_resp3">
   	<div class="item1 f_pro top_mr" style="background: none !important;">
   	<div>
-  		<img src="../assets/images/img_avatar.png" alt="profile" class="cir_image">
+  		<img src="../assets/images/img_avatar.png" alt="profile" class="cir_image2">
   		<p style="font-size: 13px;">adminshop@gmail.com</p>
   			<div class="bal_txt">
   			<p class="pro_txt2">Balance</p>
@@ -34,7 +34,7 @@
   	</div>
   </div>
   
- <div class="item2 f_pro disp_no">
+ <div class="item2 f_pro disp_no prf_dispno">
   	<div class="">
   		<p class="m-t-1">PROJECT CREATED</p>
   		<p class="pj_txt">11</p>
@@ -42,14 +42,14 @@
   </div>
   
 
- <div class="item3 f_pro disp_no">
+ <div class="item3 f_pro disp_no prf_dispno">
   	<div class="">
   		<p class="m-t-1">PROJECT COMPLETED</p>
   		<p class="pj_txt">15</p>
   	</div>
   </div>
 
-  <div class="item4 f_pro disp_no">
+  <div class="item4 f_pro disp_no prf_dispno">
   	<div class="">
   		<p class="m-t-1">PROJECT PUBLISHED</p>
   		<p class="pj_txt">25</p>
@@ -60,8 +60,8 @@
 <div class="grid-container7 pro_resp pf_resp">
 	<!--second-card-->
   <div class="item5 top_pf">
-  	<div class="left_pro">
-  		  <div class="grid-container2">
+  	<div class="left_pro top_mr_auto pro_ml">
+  		<div class="grid-container2">
 		  <div class="test1 box_style9">
 				<p class="m-t-4"><i class="fas fa-smile" style="font-size: 24px;color: #bab9b9;"></i></p>
 				<p style="letter-spacing:1px">Dashboard</p>
@@ -89,8 +89,8 @@
 		</div>
   	</div>
   </div>
-  <div class="item6 disp_no">
-  	<div class="profile">
+  <div class="item6 disp_no prf_dispno">
+  	<div class="profile pro_p2">
   		<div style="text-align:left;padding-left: 12px;">
   			<p style="color: #b5a3a3;">Data Use</p>
   		</div>
@@ -129,7 +129,7 @@
   	</div>
   </div>
   <div class="item7 top_pf2">
-  	<div class="right_pro">
+  	<div class="right_pro top_mr_auto2 pro_he">
   		<p class="contact">Contacts</p>
   		<div style="display:flex;">
   			<div class="dot" style="background: #519d6082;">
@@ -169,13 +169,13 @@
   	</div>
   </div>
    <div class="item4 card_wt">
-  	<div class="profile2">
-  		<div style="display:flex;" class="pf_resp">
+  	<div class="profile2 pro_he2 pro_img2">
+  		<div style="display:flex;" class="pf_resp pro_box">
   			<div class="pro_img">
   				<p class="pro_txt">Profile Picture</p>
   				<p>Lorem lpsum is simply dummy text of the</p>
   			</div>
-  			<div class="pro_img">
+  			<div class="pro_img pro_img2">
   				<img src="../assets/images/amazon.png" width="250px" class="img imr_resp">
   				<div style="display:flex;">
   					<p class="m-l-14"><i style="font-size: 21px;" class="fas fa-heart"></i></p>
@@ -190,7 +190,7 @@
   	</div>
   </div>
    <div class="item4 top_pf3">
-  	<div class="bt_right_pro">
+  	<div class="bt_right_pro top_mr_auto3 vis_tp">
   		<div class="item7">
   			<div class="">
   		<div style="display:flex;">

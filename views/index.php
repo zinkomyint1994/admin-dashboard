@@ -12,9 +12,9 @@
         <?php include('../views/inc/nav.php'); ?>
       <!--nav-->
     <!--test-->
-    <div class="container">
+    <div class="container fix_scroll" >
       <!--scroll-->
-  <div class="ex1 aa">
+  <div class="aa">
   <!--four card-->
   <div>
   <div class="grid-container">
@@ -79,7 +79,7 @@
   <!--four card-->
   <!--chart_list-->
 <div class="chart_height char_height">
-<div class="igFrameBar">
+<div class="igFrameBar in_mt ind_mt ch_width">
   <div class="igData igData1"></div>
   <div class="igData igData2"></div>
   <div class="igData igData3"></div>
@@ -94,8 +94,8 @@
 </div>
 <!--chart_list-->
 <!--card3-->
-<div style="padding: 11px;">
-  <div class="grid-container grid2">
+<div style="padding: 11px;margin-bottom: 30px;" class="box_lf in_cen">
+  <div class="grid-container grid2 grid3">
 
       <div class="grid-container2">
       <div class="test1 box_style2" style="height: 168px;">
@@ -109,7 +109,7 @@
         New Posts
       </div>
     </div>
-     <div class="test1 box_style2" style="height: 168px;">
+     <div class="test1 box_style2 mt-no" style="height: 168px;">
         <div class="dash_icons">
         <i class="fas fa-paperclip"></i>
       </div>
@@ -120,7 +120,7 @@
         Attached Files
       </div>
       </div>
-      <div class="test3 box_style2" style="height: 168px;margin-top: -49px;">
+      <div class="test3 box_style2 mt-no in-t-22" style="height: 168px;margin-top: -49px;">
           <div class="dash_icons">
         <i class="fas fa-comments"></i>
       </div>
@@ -131,7 +131,7 @@
         Comments
       </div>
   </div>  
-      <div class="test4 box_style2" style="height: 168px;margin-top: -49px;">
+      <div class="test4 box_style2 in-t-22" style="height: 168px;margin-top: -49px;">
           <div class="dash_icons">
         <i class="fas fa-eye"></i>
       </div>

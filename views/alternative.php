@@ -14,12 +14,12 @@
                     <?php include('../views/inc/nav.php'); ?>
                 <!--nav-->
                 <!--mid-->
-                <div class="container">
+                <div class="container fix_scroll">
                     <!--scroll-->
-                    <div class="ex1">
+                    <div class="">
                         <!--chartlist-->
                         <div>
-                            <div class="container">
+                            <div class="container" style="display: flex;">
                                 <!-- LINE CHART BLOCK (LEFT-CONTAINER) -->
                                 <div class="line-chart-block block" style="margin-top: -11px;">
                                     <div class="line-chart">
@@ -73,7 +73,7 @@
                         <!--chartlist-->
                         <!--chart_list-->
                         <div class="">
-                            <div class="grid-container grid_alt">
+                            <div class="grid-container grid_alt alt_disp">
                                 <div class="item2 it2">
                                     <div class="box_style4 box_4">
                                         <div class="igFrameBar2" style="transform: translate(0, -27%);">
@@ -90,7 +90,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="grid-container2 grid_2" style="margin-top: -9px; padding-left: 21px;">
+                                <div class="grid-container2 grid_2 alt_3" style="margin-top: -9px; padding-left: 21px;">
                                     <div class="test1 box_style5 box_5">
                                         <div class="dash_icons">
                                             <i class="fas fa-dollar-sign"></i>
@@ -113,7 +113,7 @@
                                             8.5%Stock Surplus
                                         </div>
                                     </div>
-                                    <div class="test3 box_style5 m-t-22 box_5 m-t-0">
+                                    <div class="test3 box_style5 m-t-22 box_5 m-t-0 alt_t">
                                         <div class="dash_icons">
                                             <i class="fas fa-truck"></i>
                                         </div>
@@ -124,7 +124,7 @@
                                             201 Orders
                                         </div>
                                     </div>
-                                    <div class="test4 box_style5 m-t-22 box_5 m-t-0">
+                                    <div class="test4 box_style5 m-t-22 box_5 m-t-0 alt_t">
                                         <div class="dash_icons">
                                             <i class="fas fa-search-dollar"></i>
                                         </div>

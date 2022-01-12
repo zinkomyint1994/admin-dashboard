@@ -20,7 +20,7 @@
 		<input class="log_input" type="email" name="" placeholder="Please Enter Email">
 		<br>
 		<input class="log_input" type="password" name="" placeholder="Please Enter Password">
-		<button class="log_btn"><a href="index.html">Login</a></button>
+		<button class="log_btn"><a href="index.php">Login</a></button>
 	</div>
 	
 	</form>

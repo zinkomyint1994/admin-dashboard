@@ -14,13 +14,13 @@
            <?php include('../views/inc/nav.php'); ?>
          <!--nav-->
         <!--mid-->
-        <div class="container" style="margin:15px">
-              <div class="ex1 stock">
+        <div class="container stock_scroll">
+              <div class="stock">
             <!--four card-->
             <div>
-                <div class="grid-container3 grid_3">
+                <div class="grid-container3 grid_3 st_resp">
                     <div class="item1 it1_st">
-                        <div class="box_style" style="background-color:#FFF">
+                        <div class="box_style st_pd" style="background-color:#FFF">
                             <div class="dash_icons">
                                 <i class="fas fa-users"></i>
                             </div>
@@ -74,7 +74,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item5">
+                    <div class="item5 st_cost">
                         <div class="invent" style="width: 280px;">
                             <p class="inv_title">Inventory Summary</p>
                             <div class="item5" style="background-color:#FFF">
