@@ -16,11 +16,11 @@
 		<div class="container fix_scroll" style="margin:0px;">
 			<div class="">
 		<!--four card-->
-	<div>
-		<div style="background: #538ecc;height: 250px;">
-	<div class="grid-container pro_resp3">
+	<div class="">
+		<div style="background: #538ecc;height: 250px;margin:-29px">
+	<div class="grid-containe-tpof pro_resp3">
   	<div class="item1 f_pro top_mr" style="background: none !important;">
-  	<div>
+  	<div class="pro_fn">
   		<img src="../assets/images/img_avatar.png" alt="profile" class="cir_image2">
   		<p style="font-size: 13px;">adminshop@gmail.com</p>
   			<div class="bal_txt">
@@ -57,34 +57,34 @@
   </div>
 </div>
 </div>
-<div class="grid-container7 pro_resp pf_resp">
+<div class="grid-containe-pof pro_resp pf_resp">
 	<!--second-card-->
   <div class="item5 top_pf">
-  	<div class="left_pro top_mr_auto pro_ml">
-  		<div class="grid-container2">
-		  <div class="test1 box_style9">
+  	<div class="left_pro top_mr_auto pro_ml bg_no">
+  		<div class="grid-containe-pofl">
+		  <div class="test1 box_style9 bg_on">
 				<p class="m-t-4"><i class="fas fa-smile" style="font-size: 24px;color: #bab9b9;"></i></p>
-				<p style="letter-spacing:1px">Dashboard</p>
+				<p class="pro_txt3">Dashboard</p>
   	      </div>
-		  <div class="test2 box_style9">
+		  <div class="test2 box_style9 bg_on">
 				<p class="m-t-4"><i class="fas fa-star" style="font-size: 24px;color: #bab9b9;"></i></p>
-				<p style="letter-spacing:1px">Stars</p>
+				<p class="pro_txt3">Stars</p>
 		  </div>
-		  <div class="test7 box_style9">
+		  <div class="test7 box_style9 bg_on">
 		  		<p class="m-t-4"><i class="fas fa-calendar-check" style="font-size: 24px;color: #bab9b9;"></i></p>
-				<p style="letter-spacing:1px">Events</p>
+					<p class="pro_txt3">Events</p>
 		  </div>  
-		  <div class="test4 box_style9">
+		  <div class="test4 box_style9 bg_on">
 			  	<p class="m-t-4"><i class="fas fa-image" style="font-size: 24px;color: #bab9b9;"></i></p>
-				<p style="letter-spacing:1px">Photo</p>
+				  <p class="pro_txt3">Photo</p>
 		  </div>
-		  <div class="test7 box_style9">
+		  <div class="test7 box_style9 bg_on">
 			  	<p class="m-t-4"><i class="fas fa-cogs" style="font-size: 24px;color: #bab9b9;"></i></p>
-				<p style="letter-spacing:1px">Setting</p>
+					<p class="pro_txt3">Setting</p>
 		  </div>
-		  <div class="test4 box_style9">
+		  <div class="test4 box_style9 bg_on">
 			  	<p class="m-t-4"><i class="fas fa-address-book" style="font-size: 24px;color: #bab9b9;"></i></p>
-				<p style="letter-spacing:1px">Contacts</p>
+					<p class="pro_txt3">Contacts</p>
 		  </div>
 		</div>
   	</div>
@@ -92,7 +92,7 @@
   <div class="item6 disp_no prf_dispno">
   	<div class="profile pro_p2">
   		<div style="text-align:left;padding-left: 12px;">
-  			<p style="color: #b5a3a3;">Data Use</p>
+  			<p style="color: #b5a3a3;padding: 4px;">Data Use</p>
   		</div>
   		<div style="display:flex;margin: auto;">
   			<p class="data_use"></p>
@@ -103,7 +103,7 @@
   			<p class="data_use"></p>
   			<p class="data_use"></p>
   		</div>
-  		<div style="display:flex;margin: auto;width: 95%;">
+  		<div style="display:flex;margin: auto;width: 100%;">
   			<p class="day">Sat</p>
   			<p class="day">Sun</p>
   			<p class="day">Mon</p>
@@ -112,7 +112,7 @@
   			<p class="day">Thu</p>
   			<p class="day">Fri</p>
   		</div>
-  		<div style="display:flex;margin: auto;width: 90%;">
+  		<div style="display:flex;margin: auto;width: 100%;">
   			<div class="day2">
   				<p class="m-bt-5">140</p>
   				<p class="avg_txt">AVG YEARLY</p>
@@ -128,7 +128,7 @@
   		</div>
   	</div>
   </div>
-  <div class="item7 top_pf2">
+  <div class="item7 top_pf2 pro_dsp">
   	<div class="right_pro top_mr_auto2 pro_he">
   		<p class="contact">Contacts</p>
   		<div style="display:flex;">
@@ -162,7 +162,7 @@
   </div>
 </div>
  <!--second-card-->
- <div class="grid-container7 pro_resp2 pf_resp">
+ <div class="grid-containe-bpof pro_resp2 pf_resp">
    <div class="item4 top_h">
   	<div class="bt_left_pro">
   		<p></p>
@@ -189,7 +189,7 @@
   		</div>
   	</div>
   </div>
-   <div class="item4 top_pf3">
+   <div class="item4 bt_wd">
   	<div class="bt_right_pro top_mr_auto3 vis_tp">
   		<div class="item7">
   			<div class="">

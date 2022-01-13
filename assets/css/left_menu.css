@@ -101,8 +101,8 @@
 }
 
 .wrapper .section .container {
-  margin: 30px;
-  /*padding: 30px;*/
+  /*margin: 30px;*/
+  padding: 30px;
   line-height: 28px;
 }
 .wrapper .section .container .aa {

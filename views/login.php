@@ -14,7 +14,7 @@
 	<div class="log_title">
 	
 	</div>
-	<form style="text-align:center;">
+	<form style="text-align:center;" class="log_resp">
 	<div class="log_form">
 		<p class="log_txt"><img src="../assets/images/img_avatar.png" alt="profile" class="cir_image"></p>
 		<input class="log_input" type="email" name="" placeholder="Please Enter Email">

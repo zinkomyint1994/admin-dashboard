@@ -15,13 +15,13 @@
                     <?php include('../views/inc/nav.php'); ?>
                 <!--nav-->
                 <!--mid-->
-                <div class="container fix_scroll">
+                <div class="container fix_scroll form_ml">
                     <div class="">
                         <div class="center">
                             <div>
-                                <div class="grid-container4 gird_he2" style="height: 780px;">
+                                <div class="grid-containe-fo gird_he2" style="height: 780px;">
                                     <!--form_product-->
-                                    <div class="item1 card_wt" style="width: 75%; background-color: white;">
+                                    <div class="item1 card_wt" style="background-color: white;">
                                         <div style="display: flex;">
                                             <p class="order_title">Order #1028</p>
                                         </div>
@@ -31,22 +31,22 @@
                                         </div>
                                         <!--box-->
                                         <div class="order_box">
-                                            <div style="display: flex;">
+                                            <div class="grid-containe-se">
                                                 <p class="oview">Overview</p>
                                                 <p class="date">Sep 14,2021 at 00:23AM</p>
                                             </div>
                                             <hr />
-                                            <div class="form_search card_resp">
-                                                <p class="icons2 disp_no"><i class="fas fa-search"></i></p>
+                                            <div class="grid-containe-se2 card_resp" style="border-bottom:1px solid #c6abab">
                                                 <form id="search-model" class="mt_resp" style="display: flex;">
+                                                    <i class="fas fa-search icons2"></i>
                                                     <input onkeypress="formsearch()" class="input_box2" type="text" placeholder="Search Brand ... " />
                                                 </form>
                                             </div>
 
                                             <!--search-->
                                             <div class="mt_resp">
-                                                <div class="box_style7 gr_no" style="display: flex;">
-                                                    <div style="width: 150px;">
+                                                <div class="grid-containe-fo2 gr_no">
+                                                    <div>
                                                         <h5>Microlab</h5>
                                                         <img src="../assets/images/audio.jpg" width="150px" style="margin-top: 30px;" />
                                                     </div>
@@ -62,7 +62,7 @@
                                                             <p class="forms_txt2">audio</p>
                                                         </div>
                                                     </div>
-                                                    <div>
+                                                   
                                                     <div class="stock_items" style="text-align: center;">
                                                        <!--  <p class="disp_no">Price</p> -->
                                                         <select class="sele_box">
@@ -70,24 +70,24 @@
                                                             <option value="1">$200</option>
                                                             <option value="2">$150</option>
                                                         </select>
-                                                    </div><br>
-                                                    <div class="stock_items" style="text-align: center;">
+                                                   
+                                                    
                                                       <!--   <p class="disp_no">Quantity</p> -->
-                                                        <select class="sele_box">
+                                                        <select class="sele_box" style="margin-top:5px">
                                                             <option value="0">Select Quantity</option>
                                                             <option value="1">1</option>
                                                             <option value="2">2</option>
                                                         </select>
                                                     </div>
-                                                    </div>
+                                                  
                                                     <div class="stock_items" style="text-align: center;">
                                                         <p class="disp_no">Total</p>
                                                         <p class="lsp">$250</p>
                                                     </div>
                                                 </div>
                                                 <!--second_box-->
-                                                <div class="box_style7 gr_no" style="display: flex;">
-                                                    <div style="width: 150px;">
+                                                <div class="grid-containe-fo2 gr_no">
+                                                    <div>
                                                         <h5>Sony</h5>
                                                         <img src="../assets/images/audio.jpg" width="150px" style="margin-top: 30px;" />
                                                     </div>
@@ -109,10 +109,8 @@
                                                             <option value="1">$200</option>
                                                             <option value="2">$150</option>
                                                         </select>
-                                                    </div>
-                                                    <br>
-                                                    <div class="stock_items" style="text-align: center;">
-                                                        <select class="sele_box">
+                                               
+                                                        <select class="sele_box" style="margin-top:5px">
                                                             <option value="0">Select Quantity</option>
                                                             <option value="1">1</option>
                                                             <option value="2">2</option>
@@ -133,9 +131,9 @@
                                             <!--search-->
                                         </div>
                                         <!--second_box-->
-                                        <div class="card_resp" style="display: flex; margin-top: 20px;">
+                                        <div class="card_resp grid-containe-fo3" style="margin-top: 20px;">
                                             <div class="item1">
-                                                <div class="box_style6 box_no">
+                                                <div class="box-style-fom box_no">
                                                     <div>
                                                         <textarea class="txt_area">write a note</textarea>
                                                     </div>
@@ -175,7 +173,7 @@
 
                                     <!--form_product-->
                                     <div class="item2 card_wt">
-                                        <div class="box_style" style="width: 100%; background: #ffffff8f;">
+                                        <div class="box_style" style="margin-top: 65px;width: 100%; background: #ffffff8f;">
                                             <!--card-->
                                             <div>
                                                 <img src="../assets/images/profile.png" width="65px" style="" />
@@ -194,11 +192,11 @@
                                             <!--card-->
                                             <div class="address">
                                                 <p style="color: black;">Shipping Address</p>
-                                                <p>22 st,Lathar</p>
+                                                <p class="fo_txt">22 st,Lathar</p>
                                                 <p>Yangon,Myanmar</p>
                                                 <p style="color: black;">Billing Address</p>
-                                                <p>22 st,Lathar</p>
-                                                <p>Yangon,Myanmar</p>
+                                                <p class="fo_txt">22 st,Lathar</p>
+                                                <p class="fo_txt">Yangon,Myanmar</p>
                                             </div>
                                         </div>
                                     </div>

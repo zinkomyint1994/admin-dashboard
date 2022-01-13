@@ -17,7 +17,7 @@
                     <!--second part-->
                     <div class="center userlist">
                         <div>
-                            <div class="grid-container6 card_resp urlist_grd">
+                            <div class="grid-cont-urlist card_resp urlist_grd">
                                 <!--card-->
                                 <div class="item1 gird6_ul urlist_bg">
                                     <div class="box_style card_resp" style="display: flex; width: 100%;">

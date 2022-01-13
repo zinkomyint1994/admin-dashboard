@@ -702,12 +702,154 @@ width: 389px;
   text-align: center;
   padding: 20px 0;
 }
+.grid-container-inx {   /* 1 */
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
 
-.grid-container2 {
+.grid-container-inx > div {  /* 2 */
+  text-align: center;
+  padding: 20px 0;
+}
+ .grid-containe-alt {   /* 1 */
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-containe-alt > div {  /* 2 */
+  text-align: center;
+  padding: 20px 0;
+}
+ .grid-containe-pric {   /* 1 */
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-containe-pric > div {  /* 2 */
+  text-align: center;
+  padding: 20px 0;
+}
+ .grid-containe-pod {   /* 1 */
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-containe-pod > div {  /* 2 */
+  text-align: center;
+  padding: 20px 0;
+}
+ .grid-containe-fo {   /* 1 */
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-containe-fo > div {  /* 2 */
+  text-align: center;
+  padding: 20px 0;
+}
+.grid-containe-fo2 {   /* 1 */
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-containe-fo2 > div {  /* 2 */
+  text-align: center;
+  padding: 20px 0;
+}
+.grid-containe-fo3 {   /* 1 */
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-containe-fo3 > div {  /* 2 */
+  text-align: center;
+  padding: 20px 0;
+}
+.grid-containe-se {   /* 1 */
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-containe-se > div {  /* 2 */
+  text-align: center;
+  padding: 20px 0;
+}
+.grid-containe-se2 {   /* 1 */
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-containe-se2 > div {  /* 2 */
+  text-align: center;
+  padding: 20px 0;
+}
+.grid-containe-pof {   /* 1 */
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-containe-pof > div {  /* 2 */
+  text-align: center;
+  padding: 20px 0;
+}
+.grid-containe-pofl {   /* 1 */
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.grid-containe-pofl > div {  /* 2 */
+  text-align: center;
+  padding: 20px 0;
+}
+
+.grid-containe-tpof {   /* 1 */
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
   padding: 10px;
+}
+
+.grid-containe-tpof > div {  /* 2 */
+  text-align: center;
+  padding: 20px 0;
+}
+.grid-containe-bpof {   /* 1 */
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-containe-bpof > div {  /* 2 */
+  text-align: center;
+  padding: 20px 0;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 50% 50% 50% 50%;
+  grid-gap: 5px;
 }
 
 .grid-container2 > div { 
@@ -717,9 +859,9 @@ width: 389px;
   font-size: 30px;
 }
 .grid-container3 {
-  display: flex;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 10px;
+  display: grid;
+  grid-template-columns: 17% 17% 18% 17% 40%;
+  grid-gap: 1px;
   padding: 10px;
 }
 
@@ -728,7 +870,7 @@ width: 389px;
   text-align: center;
   padding:5px;
   font-size: 30px;
-  width: 164px;
+  width: 100%;
 }
 .grid-container4 {
   display: flex;
@@ -743,8 +885,8 @@ width: 389px;
   width: 500px;
 }
 .grid-container5 {
-  display: flex;
-  grid-template-columns: auto auto auto auto;
+  display: grid;
+  grid-template-columns: 30% 30% 32%;
   grid-gap: 25px;
   padding: 1px;
 }
@@ -753,13 +895,13 @@ width: 389px;
   text-align: center;
  /* padding:5px;*/
 }
-.grid-container6 {
-  display: flex;
-  grid-template-columns: auto auto auto auto;
+.grid-cont-urlist {
+  display: grid;
+  grid-template-columns: 50% 50%;
   grid-gap: 10px;
-  padding: 10px;
+  /*padding: 10px;*/
 }
-.grid-container6 > div {
+.grid-cont-urlist > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
  /* padding:14px;*/
@@ -776,6 +918,17 @@ width: 389px;
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   width: 54%;
+}
+.grid-cont_stk {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+  padding: 10px;
+  background: #FFF;
+}
+.grid-cont_stk> div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
 }
 /* end grouping grid container
    ========================================================================== */
@@ -800,7 +953,7 @@ width: 389px;
  * box style background-color, box-shadow, background-color for all pages
 */
 .box_style{
-  width: 99%;
+  width: 100%;
   padding: 10px;
   border: 1px solid #bbb;
   margin: 0; 
@@ -809,7 +962,7 @@ width: 389px;
   background-color: #7878780a;
 }
 .box_style2{
-  width: 129px;
+  width: 100%;
   border: 1px solid #dcd4d42e;
   margin: 0; 
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -824,7 +977,7 @@ width: 389px;
   width: 589px;
 }
 .box_style5{
-  width: 150px;
+  width: 100%;
   border: 1px solid #dcd4d42e;
   margin: 0;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -839,8 +992,17 @@ width: 389px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
+.box-style-fom{
+  width: 100%;
+  padding: 4px;
+  border: 1px solid #eee9e9;
+  text-align: left;
+  margin: 0; 
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
 .box_style7{
-/*  width: 90%;*/
+  width: 100%;
   padding: 10px;
   margin: 0;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
@@ -857,7 +1019,7 @@ width: 389px;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .box_style9{
-  width: 92px;
+  width: 100%;
   border: 1px solid #dcd4d42e;
   margin: 0;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -900,9 +1062,12 @@ width: 389px;
   scrollbar-width: thin;
 }
 .stock_scroll{
-  width: 100%;
+/*  overflow: auto;
+  height: 550px;
+  scrollbar-width: thin;*/
+  height: 98vh;
   overflow-y: scroll;
-  overflow-x: scroll;
+  overflow-x: hidden;
   scrollbar-width: thin;
 }
 div.ex1 {
@@ -940,12 +1105,17 @@ path {
  * stock_management_page QUANTITY 2 box style 
 */
 .qual_box{
-  display: flex;
-  border: 1px solid #cbb;
+  /*display: flex;
   padding: -4px;
   margin-bottom: 23px;
   padding-left: 12px;
+  */
   border-radius: 5px;
+  border: 1px solid #cbb;
+  padding: 3px;
+  display: grid;
+  grid-template-columns: 52% 63%;
+  text-align: left;
 }
 hr{
   color: #e1d7d72e;
@@ -1039,13 +1209,14 @@ hr{
  */
 .userlist_btn{
   font-size: 13px;
-  padding: 6px;
+  padding: 1px;
   background-color: #008CBA;
   color: #FFF;
   border-radius: 6px;
   font-weight: normal;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   letter-spacing: 1px;
+  margin-top: 7px;
 }
 .center{
   margin: auto;
@@ -1113,10 +1284,15 @@ textarea{
 /**
  * profile_pages Data Use box style
  */
+.pro_fn{
+  margin: auto;
+  width: 100%;
+  margin-left: 11px;
+}
 .profile{
   background: #fff;
   margin: auto;
-  width: 96%;
+  width: 100%%;
   /*margin-left: 14px;*/
   margin-top: -101px;
   height: 288px;
@@ -1132,9 +1308,9 @@ textarea{
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   margin: auto;
-  width: 96%;
+  width: 100%;
   /*margin-left: 16px;*/
-  margin-top: -92px;
+  margin-top: -130px;
   height: 239px;
 }
 /**
@@ -1144,7 +1320,7 @@ textarea{
     background: #FFF;
     margin-top: -50px;
     height: 320px;
-    width: 220px;
+    width: 100%;
     /*margin-left: 10px;*/
     border: 1px solid #d9d5d5;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -1157,7 +1333,7 @@ textarea{
   background: #FFF;
   margin-top: -76px;
   height: 261px;
-  width: 220px;
+  width: 100%;
   border: 1px solid #d9d5d5;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
@@ -1186,12 +1362,16 @@ textarea{
  * profile_pages right bottom width
  */
 .bt_right_pro{
-  height: 243px;
-  width: 220px;
-  margin-top: -96px;
+  height: 234px;
+  width: 100%;
+  margin-top: -130px;
   border: 1px solid #d9d5d5;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.pro_txt3{
+  letter-spacing: 1px;
+  font-size: 11px;
 }
  /**
  * profile_pages days border style
@@ -1200,7 +1380,7 @@ textarea{
   border: 2px solid #538ecc;
   text-align: left;
   height: 155px;
-  margin-left: 61px;
+  margin-left: 67px;
   margin-top: 2px;
 }
 
@@ -1235,12 +1415,11 @@ textarea{
  * profile_pages 'contact' text style
  */
 .contact{
-  margin: auto;
   margin-top: 12px;
-  margin-left: -118px;
   font-size: 18px;
-  font-weight: bold;
-  margin-bottom: -32px;
+  margin-bottom: -37px;
+  text-align: left;
+  padding-left: 12px;
 }
 /**
  * profile_pages profile_img box
@@ -1290,7 +1469,7 @@ textarea{
  * customer view select box style
  */
 .sel2{
-  width: 287px;
+  width: 100%;
   margin-bottom: 12px;
 }
 
@@ -1336,6 +1515,14 @@ textarea{
 
 /* Grouping text style
    ========================================================================== */
+   .fo_txt{
+    font-size: 14px;
+   }
+.st_txt{
+  font-size: 14px;
+  text-align: right;
+  margin-right: 70px;
+}
  /**
   * index_page for 1000K followers_text 
  */
@@ -1356,7 +1543,7 @@ textarea{
     * index_pages box fonts-style
     */
   .dash_fonts{
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
     letter-spacing: 1px;
     padding: 12px;
@@ -1365,7 +1552,7 @@ textarea{
     * index_pages box fonts-style
     */
   .dash_fonts2{
-    font-size: 16px;
+    font-size: 14px;
     color: #cbb;
     padding-bottom: 12px;
   }
@@ -1438,7 +1625,7 @@ textarea{
  */
 .close_acc{
   margin-left: 40px;
-  font-size: 14px;
+  font-size: 13px;
   margin-top: 6px;
   font-weight: bold;
 }
@@ -1483,21 +1670,22 @@ textarea{
 .view_txt{
   margin: auto;
   margin-right: 13px;
-  font-size: 15px;
+  font-size: 13px;
 }
 /**
  * customer view text style
  */
 .view_cust2{
   margin-left: 12px;
-  font-size: 15px;
+  font-size: 12px;
 }
 /**
  * customer view text style
  */
-.view_cust3{
-  font-size: 14px;
+.view_cust3{s
+  font-size: 13px;
   color: #b0aeae;
+  letter-spacing: 1px;
 }
 /**
  * customer 'phone no' text style
@@ -1607,7 +1795,7 @@ textarea{
  * pricing page text style
  * */
 .pricing{
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   letter-spacing: 2px;
   padding: 3px;
@@ -1725,7 +1913,7 @@ textarea{
  */
 .text_box{
   margin: auto;
-  width: 89px;;
+  width: 27%;
 }
 /**
  * forms_pages date text style 
@@ -1744,6 +1932,7 @@ textarea{
   font-size: 18px;
   letter-spacing: 1px;
   font-weight: bold;
+  text-align: left;
 }
 /**
  * fomrs_pages 'order title' text style 
@@ -1786,7 +1975,7 @@ textarea{
  * profile_pages days text style
  */
 .day{
-    margin-left: 45px;
+    margin-left: 52px;
     font-size: 12px;
     margin-top: 6px;
 }
@@ -1822,9 +2011,9 @@ textarea{
  * stock_management_page nventory Summary text style
 */
 .inv_title{
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   margin-top: 1px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   letter-spacing: 1px;
 }
@@ -1861,7 +2050,7 @@ textarea{
 }
 .m-t-1{
   margin-top: 1px;
-  font-size: 14px;
+  font-size: 13px;
   color: #0000008c;
   font-weight: bold;
 }
@@ -2146,11 +2335,11 @@ textarea{
  */
 .input_box2{
     margin: auto;
-    font-size: 17px;
+    font-size: 14px;
     letter-spacing: 2px;
     width: 100%;
     outline: none;
-    width: 622px;
+    width: 100%;
     margin-left: 9px;
     border: none;
 }

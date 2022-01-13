@@ -14,7 +14,7 @@
            <?php include('../views/inc/nav.php'); ?>
          <!--nav-->
         <!--mid-->
-        <div class="container stock_scroll">
+        <div class="container stock_scroll stock_ml">
               <div class="stock">
             <!--four card-->
             <div>
@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="item2 it1_st">
-                        <div class="box_style" style="background-color:#FFF">
+                        <div class="box_style st_pd" style="background-color:#FFF">
                             <div class="dash_icons">
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
@@ -48,7 +48,7 @@
                     </div>
 
                     <div class="item3 it1_st">
-                        <div class="box_style" style="background-color:#FFF">
+                        <div class="box_style st_pd" style="background-color:#FFF">
                             <div class="dash_icons">
                                 <i class="fas fa-info-circle"></i>
                             </div>
@@ -62,7 +62,7 @@
                     </div>
 
                     <div class="item4 it1_st">
-                        <div class="box_style" style="background-color:#FFF">
+                        <div class="box_style st_pd" style="background-color:#FFF">
                             <div class="dash_icons">
                                 <i class="fas fa-tags"></i>
                             </div>
@@ -75,20 +75,20 @@
                         </div>
                     </div>
                     <div class="item5 st_cost">
-                        <div class="invent" style="width: 280px;">
+                        <div class="invent" style="width: 76%;">
                             <p class="inv_title">Inventory Summary</p>
                             <div class="item5" style="background-color:#FFF">
                                 <div>
                                     <div class="qual_box">
-                                        <p class="font_size_st" style="font-size: 10px;font-weight: bold;">QUANTITY IN HAND</p>
-                                        <p style="font-size: 14px; margin-left: 141px;">540</p>
+                                        <p class="font_size_st" style="font-size: 10px;">QUANTITY IN HAND</p>
+                                        <p class="st_txt">540</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="item5" style="background-color:#FFF">
+                            <div class="item5" style="background-color:#FFF;margin-top: 10px;">
                                 <div class="qual_box">
-                                    <p class="font_size_st" style="font-size: 10px;font-weight: bold;">QUANTITY TO BE RECEIVED</p>
-                                    <p class="ml-110" style="font-size: 14px; margin-left: 99px;">120</p>
+                                    <p class="font_size_st" style="font-size: 10px">QUANTITY TO BE RECEIVED</p>
+                                    <p class="st_txt">120</p>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +99,7 @@
             <!--second part-->
             <div>
                 <div>
-                    <div class="grid-container4 gird4_st">
+                    <div class="grid-cont_stk gird4_st">
                         <div class="item1 it1_st">
                             <div class="box_style" style="display: flex;background-color: #FFF;">
                                 <div class="stock_items">
@@ -141,7 +141,7 @@
                             </div>
                         </div>
                           <div class="item2 it1_st">
-                            <div class="box_style it1_st" style="display: flex;width: 500px;height: 190px;background-color: #FFF;">
+                            <div class="box_style it1_st" style="display: flex;height: 190px;background-color: #FFF;">
                                 <div class="stock_items2">
                                     <p style="font-weight: bold;" class="disp_no">Name</p>
                                     <hr>
