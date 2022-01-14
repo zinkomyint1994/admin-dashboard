@@ -105,11 +105,11 @@
             <div class="dropdown">
                 <a role="button" onclick="customer()" class="dropbtn <?= ($activePage == 'customers' || $activePage == 'auth') ? 'active':''; ?>">
                     <span class="icon"><i class="fa fa-users"></i></span>
-                    Customers <i class="arrow down"></i>
+                    Customers <i style="margin-left: 6px;font-size: 11px" class="fas fa-chevron-down"></i>
                 </a>
                 <div id="myDropdown" class="drop_t">
-                    <a href="customers.php">Customers List</a>
-                    <a href="auth.php">Customer View</a>
+                    <a href="customers.php" style="text-align: center">Customers List</a>
+                    <a href="auth.php" style="text-align: center">Customer View</a>
                 </div>
             </div>
         </li>
@@ -128,13 +128,13 @@
         </li>
         <li>
             <div class="dropdown">
-                <a onclick="product()" class="dropbtn <?= ($activePage == 'product' || $activePage == 'card') ? 'active':''; ?>">
+                <a role="button" onclick="product()" class="dropbtn <?= ($activePage == 'product' || $activePage == 'card') ? 'active':''; ?>">
                     <span class="icon"><i class="fa fa-product-hunt"></i></span>
-                    Products <i class="arrow down"></i>
+                    Products <i style="padding-left: 16px;font-size: 11px" class="fas fa-chevron-down"></i>
                 </a>
                 <div id="pro" class="drop_t">
-                    <a href="product.php">Products List</a>
-                    <a href="card.php">Product View</a>
+                    <a href="product.php" style="text-align: center">Products List</a>
+                    <a href="card.php" style="text-align: center">Product View</a>
                 </div>
             </div>
         </li>
