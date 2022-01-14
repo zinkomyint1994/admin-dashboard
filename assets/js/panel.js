@@ -1,15 +1,14 @@
 /*hamburger*/
 var width = window.innerWidth;
-if (width < 400 || width < 520) {
-    var element = document.getElementById("bbb");
-    if(element != null){
-        element.classList.add("active");
+if (width > 400 || width > 520) {
+    console.log('width')
     }
     else{
-        console.log('width ok')
+        var element = document.getElementById("bbb");
+        if(element != null){
+        element.classList.add("active");
     }
- 
-}
+ }
 var hamburger = document.querySelector(".hamburger");
 if (hamburger != null) {
     hamburger.addEventListener("click", function () {

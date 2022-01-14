@@ -17,9 +17,9 @@
 	<form style="text-align:center;" class="log_resp">
 	<div class="log_form">
 		<p class="log_txt"><img src="../assets/images/img_avatar.png" alt="profile" class="cir_image"></p>
-		<input class="log_input" type="email" name="" placeholder="Please Enter Email">
+		<input class="log_input" type="email" name="" placeholder="zinkomyint@gmail.com" disabled>
 		<br>
-		<input class="log_input" type="password" name="" placeholder="Please Enter Password">
+		<input class="log_input" type="password" name="" placeholder="*********" disabled>
 		<button class="log_btn"><a href="index.php">Login</a></button>
 	</div>
 	
