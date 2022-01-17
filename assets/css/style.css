@@ -1217,7 +1217,8 @@ hr{
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   letter-spacing: 1px;
   margin-top: 7px;
-  width: 39%;
+  width: 100%;
+  text-align: center;
 }
 .center{
   margin: auto;
@@ -1913,7 +1914,7 @@ textarea{
  * forms_pages text style
  */
 .text_box{
-  margin: auto;
+  /* margin: auto; */
   width: 27%;
 }
 /**
