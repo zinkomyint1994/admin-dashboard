@@ -20,7 +20,7 @@
                         <div>
                             <div class="grid-container5 auth_center gird5_st">
                                 <div class="item1 cust_cent">
-                                    <div class="box_style6" style="height: 100%;">
+                                    <div class="box_style6" style="background: #054468a6;border-radius: 8px;">
                                         <img src="../assets/images/img_avatar.png" alt="profile" class="cir_image" />
                                         <p class="view_cust3">ZIN KO MYINT</p>
                                         <p class="view_cust3">ELECTRONIC ARTS LTD</p>
@@ -58,7 +58,7 @@
                                 </div>
 
                                 <div class="item2 cust_cent">
-                                    <div class="box_style6" style="height: 100%;">
+                                    <div class="box_style6" style="background: #054468a6;border-radius: 8px;">
                                         <div class="bill_txt2">
                                             <p>Billing</p>
                                         </div>
@@ -103,14 +103,15 @@
                                 </div>
 
                                 <div class="item3 cust_cent" style="background: none;">
-                                    <div class="box_style6" style="line-height: 26px;height: 223px; margin-bottom: 21px; background: #fff;">
+                                    <div class="box_style6" style="border-radius: 8px;line-height: 26px;height: 223px; margin-bottom: 21px; background: #054468a6;">
                                         <div class="bill_txt2">
                                             <p>Billing</p>
                                         </div>
                                         <select class="sel2">
                                             <option>Resend Last Invoice</option>
                                         </select>
-                                        <p class="send">Send Email</p>
+                                        <button class="send">Send Email</button>
+                                        <!-- <p class="send">Send Email</p> -->
                                         <div style="display: flex;">
                                             <p class="order2">27/10/2021 | 12:23</p>
                                             <p class="order">Order Received</p>
@@ -120,7 +121,7 @@
                                             <p class="order">Order Confirmation</p>
                                         </div>
                                     </div>
-                                    <div class="box_style6" style="line-height: 22px;height: 240px; background: #fff;">
+                                    <div class="box_style6" style="border-radius: 8px;margin-bottom: 25px;line-height: 22px;height: 49%; background: #054468a6;;">
                                         <div class="bill_txt2">
                                             <p>Other Actions</p>
                                         </div>
@@ -136,10 +137,10 @@
                                             <p class="close_acc2" style="color: #fb6d6d !important;"><i class="fas fa-exclamation-circle"></i></p>
                                             <p class="close_acc" style="color: #b2b0b0; text-align: left;">Once you delete account,data will be loat forever</p>
                                         </div>
-                                        <div class="del_acc">
+                                        <button class="del_acc" style="border:none">
                                             <p class="del_icons"><i class="fas fa-trash"></i></p>
-                                            <p style="margin-top: 7px;">Delete Account</p>
-                                        </div>
+                                            <p style="margin-top: 7px;font-size: 13px;letter-spacing: 1px;">Delete Account</p>
+                                        </button>
                                     </div>
                                 </div>
                             </div>

@@ -13,8 +13,8 @@
                    <?php include('../views/inc/nav.php'); ?>
                 <!--nav-->
                 <!--mid-->
-                <div class="container">
-                    <div class="ex1">
+                <div class="container fix_scroll">
+                    <div class="aa">
                         <!--four card-->
                         <div>
                             <div style="display: flex;">
@@ -55,11 +55,12 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                       
                         <!--four card-->
                     </div>
                 </div>
                 <!--mid-->
+                 </div>
             </div>
             <!--sidebar-->
                 <?php include('../views/inc/left_menu.php'); ?>

@@ -13,8 +13,8 @@
                     <?php include('../views/inc/nav.php'); ?>
                  <!--nav-->
                 <!--mid-->
-                <div class="container ex1">
-                    <div>
+                <div class="container fix_scroll">
+                    <div class="aa">
                         <div class="search">
                             <p class="search_icons"><i class="fas fa-search"></i></p>
                             <input class="help_search" placeholder="search keyword base" />
@@ -23,7 +23,7 @@
                         <div class="category cat_resp">
                             <p>Or Browse by category</p>
                         </div>
-                    </div>
+                   
                     <!--four card-->
                     <div>
                         <div class="grid-container gird_he">
@@ -75,6 +75,7 @@
                     <!--four card-->
                 </div>
                 <!--mid-->
+                 </div>
             </div>
             <!--sidebar-->
                 <?php include('../views/inc/left_menu.php'); ?>

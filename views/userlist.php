@@ -13,14 +13,14 @@
                    <?php include('../views/inc/nav.php'); ?>
                  <!--nav-->
                 <!--mid-->
-                <div class="container">
+                <div class="container fix_scroll">
                     <!--second part-->
                     <div class="center userlist">
-                        <div>
+                        <div style="margin-bottom:25px">
                             <div class="grid-cont-urlist card_resp urlist_grd">
                                 <!--card-->
                                 <div class="item1 gird6_ul urlist_bg">
-                                    <div class="box_style card_resp" style="display: flex; width: 100%;">
+                                    <div class="box_style card_resp" style="display: flex; width: 100%;background: #fff;">
                                         <div class="stock_items">
                                             <img src="../assets/images/profile.png" width="65px" style="" />
                                             <!-- <hr> -->
@@ -55,7 +55,7 @@
                                 <!--card-->
                                 <!--card-->
                                 <div class="item1 gird6_ul box_h urlist_bg">
-                                    <div class="box_style card_resp" style="display: flex; width: 100%;">
+                                    <div class="box_style card_resp" style="display: flex; width: 100%;background: #fff;">
                                         <div class="stock_items">
                                             <img src="../assets/images/profile.png" width="65px" style="" />
 

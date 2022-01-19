@@ -18,8 +18,8 @@
                     <!--scroll-->
                     <div class="">
                         <!--chartlist-->
-                        <div>
-                            <div class="container" style="display: flex;">
+                        <div class="aa">
+                            <div class="container" style="display: flex;margin:-21px">
                                 <!-- LINE CHART BLOCK (LEFT-CONTAINER) -->
                                 <div class="line-chart-block block" style="margin-top: -11px;">
                                     <div class="line-chart">
@@ -76,7 +76,7 @@
                             <div class="grid-containe-alt grid_alt alt_disp">
                                 <div class="item2 it2">
                                     <div class="box_style4 box_4">
-                                        <div class="igFrameBar2" style="transform: translate(0, -27%);">
+                                        <div class="igFrameBar2">
                                             <div class="igData igData1"></div>
                                             <div class="igData igData2"></div>
                                             <div class="igData igData3"></div>
@@ -90,9 +90,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="grid-container2 grid_2 alt_3" style="margin-top: -9px;">
+                                <div class="grid-container-alt2 grid_2 alt_3" style="margin-top: -6px;">
                                     <div class="test1 box_style5 box_5">
-                                        <div class="dash_icons">
+                                        <div class="dash_icons3">
                                             <i class="fas fa-dollar-sign"></i>
                                         </div>
                                         <div class="dash_fonts2" style="margin-top: 14px;">
@@ -103,32 +103,32 @@
                                         </div>
                                     </div>
                                     <div class="test2 box_style5 box_5">
-                                        <div class="dash_icons">
+                                        <div class="dash_icons3">
                                             <i class="fab fa-stack-exchange"></i>
                                         </div>
-                                        <div class="dash_fonts2" style="margin-top: 14px;">
+                                        <div class="dash_fonts2">
                                             Inventory status
                                         </div>
                                         <div class="dash_fonts2">
                                             8.5%Stock Surplus
                                         </div>
                                     </div>
-                                    <div class="test3 box_style5 m-t-22 box_5 m-t-0 alt_t">
-                                        <div class="dash_icons">
+                                    <div class="test3 box_style5 box_5 m-t-0 alt_t">
+                                        <div class="dash_icons3">
                                             <i class="fas fa-truck"></i>
                                         </div>
-                                        <div class="dash_fonts2" style="margin-top: 14px;">
+                                        <div class="dash_fonts2">
                                             Orders to deliver
                                         </div>
                                         <div class="dash_fonts2">
                                             201 Orders
                                         </div>
                                     </div>
-                                    <div class="test4 box_style5 m-t-22 box_5 m-t-0 alt_t">
-                                        <div class="dash_icons">
+                                    <div class="test4 box_style5 box_5 m-t-0 alt_t">
+                                        <div class="dash_icons3">
                                             <i class="fas fa-search-dollar"></i>
                                         </div>
-                                        <div class="dash_fonts2" style="margin-top: 14px;">
+                                        <div class="dash_fonts2">
                                             67%
                                         </div>
                                         <div class="dash_fonts2">

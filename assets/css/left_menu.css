@@ -3,7 +3,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 225px;
+  width: 232px;
   height: 100%;
   padding: 20px 0;
   transition: all 0.5s ease;
@@ -44,7 +44,7 @@
 
 .wrapper .sidebar ul li a {
   display: block;
-  padding: 9px 30px;
+  padding: 13px 30px;
 /*  border-bottom: 1px solid #10558d;*/
   color: rgb(241, 237, 237);
   font-size: 14px;
@@ -88,7 +88,7 @@
   align-items: center;
   padding: 0 30px;
   border-bottom: 1px solid #d0cdcd;
-  margin-left: 12px;
+  margin-left: 26px;
 }
 
 .wrapper .section .top_navbar .hamburger a {
@@ -106,16 +106,21 @@
   line-height: 28px;
 }
 .wrapper .section .container .aa {
+  /*background: #fff;
+  padding: 2px;
+  line-height: 28px;*/
   background: #fff;
   padding: 2px;
   line-height: 28px;
+  width: 97%;
+  margin: auto;
 }
 body.active .wrapper .sidebar {
   left: -225px;
 }
 /*test*/
 body.active .wrapper .test {
-  left: -191px;
+  left: -180px;
 }
 /*test*/
 body.active .wrapper .section {
@@ -143,7 +148,7 @@ body.active .wrapper .section .price {
   margin: auto;
 }
 body.active .wrapper .section .userlist {
-  width: 77%;
+  width: 84%;
   margin: auto;
 }
 body.active .wrapper .section .auth_center {
@@ -164,6 +169,9 @@ body.active .wrapper .section .auth_center {
 }
 /*menu_icons*/
 .menu_icons{
-  margin-left: 197px;
+  margin-left: 193px;
   color: white;
+}
+.hover-left{
+  margin-left: 3%;
 }

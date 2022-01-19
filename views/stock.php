@@ -14,13 +14,13 @@
            <?php include('../views/inc/nav.php'); ?>
          <!--nav-->
         <!--mid-->
-        <div class="container stock_scroll stock_ml">
+        <div class="container stock_scroll stock_ml" style="margin-bottom:30px">
               <div class="stock">
             <!--four card-->
             <div>
                 <div class="grid-container3 grid_3 st_resp">
                     <div class="item1 it1_st">
-                        <div class="box_style st_pd" style="background-color:#FFF">
+                        <div class="box_style st_pd">
                             <div class="dash_icons">
                                 <i class="fas fa-users"></i>
                             </div>
@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="item2 it1_st">
-                        <div class="box_style st_pd" style="background-color:#FFF">
+                        <div class="box_style st_pd">
                             <div class="dash_icons">
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
@@ -48,7 +48,7 @@
                     </div>
 
                     <div class="item3 it1_st">
-                        <div class="box_style st_pd" style="background-color:#FFF">
+                        <div class="box_style st_pd">
                             <div class="dash_icons">
                                 <i class="fas fa-info-circle"></i>
                             </div>
@@ -62,7 +62,7 @@
                     </div>
 
                     <div class="item4 it1_st">
-                        <div class="box_style st_pd" style="background-color:#FFF">
+                        <div class="box_style st_pd">
                             <div class="dash_icons">
                                 <i class="fas fa-tags"></i>
                             </div>
@@ -104,20 +104,22 @@
                             <div class="box_style" style="display: flex;background-color: #FFF;">
                                 <div class="stock_items">
                                     <p style="color: red;">Stock Items</p>
-                                    <p>Low Stock Items</p>
-                                    <p>Available Items</p>
+                                    <p class="stock_fo2">Low Stock Items</p>
+                                    <p class="stock_fo2">Available Items</p>
                                     <hr>
-                                    <p>Purchase Order</p>
-                                    <p>Quantity Ordered</p>
-                                    <p style="text-align:center;">432</p>
+                                    <p class="stock_fo2">Purchase Order</p>
+                                    <p class="stock_fo2">Quantity Ordered</p>
+                                    <p style="letter-spacing: 4px;color: #fff;text-align:center;background-color:#054468a6;border-radius: 4px;">432</p>
                                 </div>
                                 <div class="stock_items" style="text-align: center;">
-                                    <p style="color: red;">234</p>
-                                    <p>123</p>
-                                    <p>3432</p>
+                                    <div class="stock_items3">
+                                        <p style="color:#952b2ba6">234</p>
+                                    </div>
+                                    <p>209</p>
+                                    <p>1208</p>
                                     <hr>
-                                    <p style="margin-top: 26px">Total Cost</p>
-                                    <p>$432,439</p>
+                                    <p style="margin-top: 26px;" class="stock_fo">Total Cost</p>
+                                    <p style="color: #5c859c;">$432,439</p>
                                 </div>
                                 <div style="width: 150px;">
                                 <!--svg-->
@@ -133,7 +135,7 @@
                                       <path d="M18 2.0845
                                           a 15.9155 15.9155 0 0 1 0 31.831
                                           a 15.9155 15.9155 0 0 1 0 -31.831" fill="transparent" stroke="#3281ff" ; stroke-width="3" ; stroke-dasharray="60, 100" />
-                                      <text style="font-size:4px;font-weight: bold" x="18" y="18" transform='translate(-3,1)'>60 %</text>
+                                      <text style="font-size:4px;font-weight: normal;" x="18" y="18" transform='translate(-3,1)'>60 %</text>
                                     </svg>
                                     </div>
                                     <!--svg-->
@@ -141,30 +143,30 @@
                             </div>
                         </div>
                           <div class="item2 it1_st">
-                            <div class="box_style it1_st" style="display: flex;height: 190px;background-color: #FFF;">
+                            <div class="box_style it1_st" style="display: flex;height: 100%;background-color: #FFF;margin-bottom:26px">
                                 <div class="stock_items2">
-                                    <p style="font-weight: bold;" class="disp_no">Name</p>
+                                    <p class="disp_no stk_name">Name</p>
                                     <hr>
-                                    <p class="m-t-14">Earphone</p>
-                                    <p class="m-t-14">Keyboard</p>
-                                    <p class="m-t-14">iphone X</p>
+                                    <p class="m-t-14 stock_fo">Earphone</p>
+                                    <p class="m-t-14 stock_fo">Keyboard</p>
+                                    <p class="m-t-14 stock_fo">iphone X</p>
                                 </div>
                                 <div class="stock_items2">
-                                    <p style="font-weight: bold;" class="disp_no">Revenue</p>
+                                    <p class="disp_no stk_name">Revenue</p>
                                     <hr>
-                                    <p class="m-t-14 pric_st">$100</p>
-                                    <p class="m-t-14 pric_st">$60</p>
-                                    <p class="m-t-14 pric_st">$600</p>
+                                    <p class="m-t-14 pric_st dolr_po">$100</p>
+                                    <p class="m-t-14 pric_st dolr_po">$605</p>
+                                    <p class="m-t-14 pric_st dolr_po">$600</p>
                                 </div>
                                   <div class="stock_items2">
-                                    <p style="font-weight: bold;" class="disp_no">Stock Staus</p>
+                                    <p class="disp_no stk_name" style="text-align: left;">Stock Staus</p>
                                     <hr>
-                                    <p class="available m-t-14"">15 available</p>
-                                    <p class="instock m-t-14"">in stock</p>
-                                    <p class="outstock m-t-14"">out of stock</p>
+                                    <p class="available m-t-14">15 available</p>
+                                    <p class="instock m-t-14">in stock</p>
+                                    <p class="outstock m-t-14">out of stock</p>
                                 </div>
                                   <div class="stock_items2" style="text-align:center;">
-                                    <p style="font-weight: bold;" class="disp_no">Action</p>
+                                    <p class="disp_no stk_name">Action</p>
                                     <hr>
                                     <p class="m-t-14 disp_no"><i class="fas fa-edit"></i></p>
                                     <p class="m-t-14 disp_no"><i class="fas fa-edit"></i></p>

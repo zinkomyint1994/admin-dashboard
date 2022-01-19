@@ -20,7 +20,7 @@
                         <div>
                             <div class="grid-containe-pric gird5_st" style="margin-top: -30px;">
                                 <div class="item1 pr_wid">
-                                    <div class="box_style6 width_pric" style="width: 100%; height: 100%;line-height: 21px;">
+                                    <div class="box_style6 width_pric" style="border-radius: 8px;width: 100%; height: 100%;line-height: 21px;">
                                         <div class="dash_icons">
                                             <img src="../assets/images/1.jpg" width="100%" class="pr_img" />
                                         </div>
@@ -30,16 +30,16 @@
                                         <div class="pricing">
                                             $75
                                         </div>
-                                        <div class="dash_fonts2">
+                                        <div class="dash_fonts4">
                                             Monthy
                                         </div>
-                                        <div class="dash_fonts2">
+                                        <div class="dash_fonts4">
                                             Complete CRM Service
                                         </div>
-                                        <div class="dash_fonts2">
+                                        <div class="dash_fonts4">
                                             100GB Disk Space
                                         </div>
-                                        <div class="dash_fonts2">
+                                        <div class="dash_fonts4">
                                             Upto 5 Users
                                         </div>
                                         <button class="button button2">SIGN UP</button>
@@ -47,7 +47,7 @@
                                 </div>
 
                                 <div class="item2 pr_wid">
-                                    <div class="box_style6 width_pric" style="width: 100%; height: 100%;line-height: 21px;">
+                                    <div class="box_style6 width_pric" style="border-radius: 8px;width: 100%; height: 100%;line-height: 21px;">
                                         <div class="dash_icons">
                                             <img src="../assets/images/2.jpg" width="100%" class="pr_img" />
                                         </div>
@@ -57,16 +57,16 @@
                                         <div class="pricing">
                                             $195
                                         </div>
-                                        <div class="dash_fonts2">
+                                        <div class="dash_fonts4">
                                             Monthy
                                         </div>
-                                        <div class="dash_fonts2">
+                                        <div class="dash_fonts4">
                                             Complete CRM Service
                                         </div>
-                                        <div class="dash_fonts2">
+                                        <div class="dash_fonts4">
                                             100GB Disk Space
                                         </div>
-                                        <div class="dash_fonts2">
+                                        <div class="dash_fonts4">
                                             Upto 5 Users
                                         </div>
                                         <button class="button button2">SIGN UP</button>
@@ -74,7 +74,7 @@
                                 </div>
 
                                 <div class="item3 pr_wid">
-                                    <div class="box_style6 width_pric" style="width: 100%; height: 100%;line-height: 21px;">
+                                    <div class="box_style6 width_pric" style="border-radius: 8px;width: 100%; height: 100%;line-height: 21px;">
                                         <div class="dash_icons">
                                             <img src="../assets/images/3.jpg" width="100%" class="pr_img" />
                                         </div>
@@ -84,16 +84,16 @@
                                         <div class="pricing">
                                             $495
                                         </div>
-                                        <div class="dash_fonts2">
+                                        <div class="dash_fonts4">
                                             Monthy
                                         </div>
-                                        <div class="dash_fonts2">
+                                        <div class="dash_fonts4">
                                             Complete CRM Service
                                         </div>
-                                        <div class="dash_fonts2">
+                                        <div class="dash_fonts4">
                                             100GB Disk Space
                                         </div>
-                                        <div class="dash_fonts2">
+                                        <div class="dash_fonts4">
                                             Upto 5 Users
                                         </div>
                                         <button class="button button2">SIGN UP</button>

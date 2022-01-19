@@ -26,8 +26,8 @@
                                             <p class="order_title">Order #1028</p>
                                         </div>
                                         <div class="m-b-5">
-                                            <p class="available m-r-8">Paid</p>
-                                            <p class="instock">Unlimited</p>
+                                            <p class="available2 m-r-8">Paid</p>
+                                            <p class="instock2">Unlimited</p>
                                         </div>
                                         <!--box-->
                                         <div class="order_box">
@@ -36,7 +36,8 @@
                                                 <p class="date">Sep 14,2021 at 00:23AM</p>
                                             </div>
                                             <hr />
-                                            <div class="grid-containe-se2 card_resp" style="border-bottom:1px solid #c6abab">
+                                            <div class="grid-containe-se2 card_resp" style="border:1px solid #c6abab;
+                                            border-radius: 8px;margin-top: 4px;">
                                                 <form id="search-model" class="mt_resp" style="display: flex;">
                                                     <i class="fas fa-search icons2"></i>
                                                     <input onkeypress="formsearch()" class="input_box2" type="text" placeholder="Search Brand ... " />
@@ -45,14 +46,14 @@
 
                                             <!--search-->
                                             <div class="mt_resp">
-                                                <div class="grid-containe-fo2 gr_no">
+                                                <div class="grid-containe-fo2 gr_no" style="border-bottom:1px solid #f6ecec">
                                                     <div>
                                                         <h5>Microlab</h5>
                                                         <img src="../assets/images/audio.jpg" width="150px" style="margin-top: 30px;" />
                                                     </div>
                                                     <div class="stock_items" style="padding-left: 11px;">
                                                         <p class="pro_details">Product Details</p>
-                                                        <p class="pro_name">Bass Speak Black</p>
+                                                        <p class="pro_name">Bass Speaker</p>
                                                         <div style="display: flex;">
                                                             <p class="forms_txt">brand :</p>
                                                             <p class="forms_txt2">Microlab</p>
@@ -65,10 +66,12 @@
                                                    
                                                     <div class="stock_items" style="text-align: center;">
                                                        <!--  <p class="disp_no">Price</p> -->
-                                                        <select class="sele_box">
+                                                        <select class="sele_box" id="mySelect"  onclick="price()">
                                                             <option value="0">Select Price</option>
                                                             <option value="1">$200</option>
                                                             <option value="2">$150</option>
+                                                            <option value="3">$200</option>
+                                                            <option value="4">$560</option>
                                                         </select>
                                                    
                                                     
@@ -82,7 +85,7 @@
                                                   
                                                     <div class="stock_items" style="text-align: center;">
                                                         <p class="disp_no">Total</p>
-                                                        <p class="lsp">$250</p>
+                                                        <p class="lsp" id="demo">-</p>
                                                     </div>
                                                 </div>
                                                 <!--second_box-->
@@ -92,7 +95,7 @@
                                                         <img src="../assets/images/audio.jpg" width="150px" style="margin-top: 30px;" />
                                                     </div>
                                                     <div class="stock_items" style="padding-left: 11px;">
-                                                        <p class="pro_name">Bass Speak Black</p>
+                                                        <p class="pro_name">Bass Speaker</p>
                                                         <div style="display: flex;">
                                                             <p class="forms_txt">brand :</p>
                                                             <p class="forms_txt2">Sony</p>
@@ -104,10 +107,12 @@
                                                     </div>
                                                     <div>
                                                     <div class="stock_items" style="text-align: center;">
-                                                        <select class="sele_box">
+                                                        <select class="sele_box" id="sonyselect"  onclick="price()">
                                                             <option value="0">Select Price</option>
                                                             <option value="1">$200</option>
                                                             <option value="2">$150</option>
+                                                            <option value="3">$200</option>
+                                                            <option value="4">$560</option>
                                                         </select>
                                                
                                                         <select class="sele_box" style="margin-top:5px">
@@ -119,7 +124,7 @@
                                                 </div>
                                                     <div class="stock_items" style="text-align: center;">
                                                          <p class="disp_no">Total</p>
-                                                        <p class="m-t-4 lsp">$120</p>
+                                                        <p class="m-t-4 lsp" id="sony">-</p>
                                                     </div>
                                                 </div>
                                                 <div class="row list-single" id="notAvailable" style="display: none;">
@@ -135,7 +140,7 @@
                                             <div class="item1">
                                                 <div class="box-style-fom box_no">
                                                     <div>
-                                                        <textarea class="txt_area">write a note</textarea>
+                                                        <textarea class="txt_area" placeholder="write a note"></textarea>
                                                     </div>
                                                     <div class="text_box">
                                                         <p class="userlist_btn">Add a note</p>
@@ -161,7 +166,7 @@
                                                     </div>
                                                     <div style="display: flex;">
                                                         <p class="mr-t-8 bill_details">Taxes</p>
-                                                        <p class="mr-t-8 dhl m-l-64">$150.00</p>
+                                                        <p class="mr-t-8 dhl m-l-59">$150.00</p>
                                                     </div>
                                                     <div style="display: flex;">
                                                         <p class="bill_txt">GST 5%</p>
@@ -173,7 +178,7 @@
 
                                     <!--form_product-->
                                     <div class="item2 card_wt">
-                                        <div class="box_style" style="margin-top: 65px;width: 100%; background: #ffffff8f;">
+                                        <div class="box_style" style="height: 46%;margin-top: 65px;width: 100%; background: #054468a6;">
                                             <!--card-->
                                             <div>
                                                 <img src="../assets/images/profile.png" width="65px" style="" />
@@ -193,7 +198,7 @@
                                             <div class="address">
                                                 <p style="color: black;">Shipping Address</p>
                                                 <p class="fo_txt">22 st,Lathar</p>
-                                                <p>Yangon,Myanmar</p>
+                                                <p style="color:#fff">Yangon,Myanmar</p>
                                                 <p style="color: black;">Billing Address</p>
                                                 <p class="fo_txt">22 st,Lathar</p>
                                                 <p class="fo_txt">Yangon,Myanmar</p>

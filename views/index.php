@@ -98,7 +98,7 @@
   <div class="grid-container-inx grid2 grid3">
 
       <div class="grid-container2">
-      <div class="test1 box_style2" style="height: 168px;">
+      <div class="test1 box_style2" style="height: 70%;">
         <div class="dash_icons">
         <i class="fas fa-blog"></i>
       </div>
@@ -109,7 +109,7 @@
         New Posts
       </div>
     </div>
-     <div class="test1 box_style2 mt-no" style="height: 168px;">
+     <div class="test1 box_style2 mt-no" style="height: 70%;">
         <div class="dash_icons">
         <i class="fas fa-paperclip"></i>
       </div>
@@ -120,7 +120,7 @@
         Attached Files
       </div>
       </div>
-      <div class="test3 box_style2 mt-no in-t-22" style="height: 168px;margin-top: -49px;">
+      <div class="test3 box_style2 mt-no in-t-22" style="height: 70%;top: -61px;position: relative;">
           <div class="dash_icons">
         <i class="fas fa-comments"></i>
       </div>
@@ -131,7 +131,7 @@
         Comments
       </div>
   </div>  
-      <div class="test4 box_style2 in-t-22" style="height: 168px;margin-top: -49px;">
+      <div class="test4 box_style2 in-t-22" style="height: 70%;top: -61px;position: relative;">
           <div class="dash_icons">
         <i class="fas fa-eye"></i>
       </div>
@@ -147,9 +147,9 @@
 
   
  <div class="item2">
-    <div class="box_style3" style="border:none !important;">
+    <div class="" style="border:none !important;">
       <!--svg-->
-      <div style="margin-top:12px;margin-right: 12px;">
+      <div>
       <svg width="200" height="200" viewBox="0 0 36 36">
       <defs>
         <radialGradient id="gradient">
@@ -161,7 +161,7 @@
       <path d="M18 2.0845
           a 15.9155 15.9155 0 0 1 0 31.831
           a 15.9155 15.9155 0 0 1 0 -31.831" fill="transparent" stroke="#3281ff" ; stroke-width="3" ; stroke-dasharray="60, 100" />
-      <text style="font-size:4px;font-weight: bold" x="18" y="18" transform='translate(-3,1)'>842K</text>
+      <text style="font-size:4px;font-weight: normal;" x="17" y="18" transform='translate(-3,1)'>842K</text>
     </svg>
     </div>
   <!--svg-->
@@ -172,7 +172,7 @@
   
 
  <div class="item3">
-    <div class="box_style">
+    <div class="box_style box_bg">
       <svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="graph" aria-labelledby="Sales Figures" role="img">
 
   <title id="title">Sales Figures</title>
@@ -200,7 +200,7 @@
     <text x="60" y="406">0</text>
   </g>
   <g class="labels label-title chartlabels">
-    <text x="60" y="160" class="y-label1" transform="rotate(270, 60, 200)">Euros in Millions</text>
+    <text x="60" y="160" class="y-label1" transform="rotate(270, 60, 200)">Income Years</text>
   </g>
   <g class="grid x-grid2" id="xGrid2">
     <line x1="200" x2="200" y1="400" y2="411"></line>

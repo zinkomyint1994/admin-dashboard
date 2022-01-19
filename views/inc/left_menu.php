@@ -79,22 +79,24 @@
 <!--menu icons-->
 
 <div class="sidebar">
-    <p class="logo2">ZK - admin</p>
-    <ul>
+   
+    <div class="menu_scroll">
+         <p class="logo2">ジンコミィン</p>
+         <ul>
         <li>
-            <a href="index.php" class="<?= ($activePage == 'index') ? 'active':''; ?>">
+            <a href="index.php" class="<?= ($activePage == 'index') ? 'active':''; ?> hover-left">
                 <span class="icon"><i class="fas fa-desktop"></i></span>
                 <span class="item">Dashboard</span>
             </a>
         </li>
         <li>
-            <a href="alternative.php" class="<?= ($activePage == 'alternative') ? 'active':''; ?>">
+            <a href="alternative.php" class="<?= ($activePage == 'alternative') ? 'active':''; ?> hover-left">
                 <span class="icon"><i class="fas fa-business-time"></i></span>
                 <span class="item">Alternative</span>
             </a>
         </li>
         <li>
-            <a href="stock.php" class="<?= ($activePage == 'stock') ? 'active':''; ?>">
+            <a href="stock.php" class="<?= ($activePage == 'stock') ? 'active':''; ?> hover-left">
                 <span class="icon"><i class="fas fa-chart-line"></i></span>
                 <span class="item">Stock Management</span>
             </a>
@@ -103,11 +105,11 @@
         <p class="logo">PAGES</p>
         <li>
             <div class="dropdown">
-                <a role="button" onclick="customer()" class="dropbtn <?= ($activePage == 'customers' || $activePage == 'auth') ? 'active':''; ?>">
+                <a role="button" onclick="customer()" class="dropbtn <?= ($activePage == 'customers' || $activePage == 'auth') ? 'active':''; ?> hover-left">
                     <span class="icon"><i class="fa fa-users"></i></span>
                     Customers <i style="margin-left: 6px;font-size: 11px" class="fas fa-chevron-down"></i>
                 </a>
-                <div id="myDropdown" class="drop_t">
+                <div id="myDropdown" class="drop_t hover-left">
                     <a href="customers.php" style="text-align: center">Customers List</a>
                     <a href="auth.php" style="text-align: center">Customer View</a>
                 </div>
@@ -115,49 +117,49 @@
         </li>
 
         <li>
-            <a href="pricing.php" class="<?= ($activePage == 'pricing') ? 'active':''; ?>">
+            <a href="pricing.php" class="<?= ($activePage == 'pricing') ? 'active':''; ?> hover-left">
                 <span class="icon"><i class="fas fa-comment-dollar"></i></span>
                 <span class="item">Pricing</span>
             </a>
         </li>
         <li>
-            <a href="help.php" class="<?= ($activePage == 'help') ? 'active':''; ?>">
+            <a href="help.php" class="<?= ($activePage == 'help') ? 'active':''; ?> hover-left">
                 <span class="icon"><i class="fas fa-question-circle"></i></span>
                 <span class="item">Help</span>
             </a>
         </li>
         <li>
             <div class="dropdown">
-                <a role="button" onclick="product()" class="dropbtn <?= ($activePage == 'product' || $activePage == 'card') ? 'active':''; ?>">
+                <a role="button" onclick="product()" class="dropbtn <?= ($activePage == 'product' || $activePage == 'card') ? 'active':''; ?> hover-left">
                     <span class="icon"><i class="fa fa-product-hunt"></i></span>
                     Products <i style="padding-left: 16px;font-size: 11px" class="fas fa-chevron-down"></i>
                 </a>
-                <div id="pro" class="drop_t">
+                <div id="pro" class="drop_t hover-left">
                     <a href="product.php" style="text-align: center">Products List</a>
                     <a href="card.php" style="text-align: center">Product View</a>
                 </div>
             </div>
         </li>
         <li>
-            <a href="order.php" class="<?= ($activePage == 'order') ? 'active':''; ?>">
+            <a href="order.php" class="<?= ($activePage == 'order') ? 'active':''; ?> hover-left">
                 <span class="icon"><i class="fas fa-archive"></i></span>
                 <span class="item">Order</span>
             </a>
         </li>
         <li>
-            <a href="userlist.php" class="<?= ($activePage == 'userlist') ? 'active':''; ?>">
+            <a href="userlist.php" class="<?= ($activePage == 'userlist') ? 'active':''; ?> hover-left">
                 <span class="icon"><i class="fas fa-clipboard-list"></i></span>
                 <span class="item">User list</span>
             </a>
         </li>
         <li>
-            <a href="forms.php" class="<?= ($activePage == 'forms') ? 'active':''; ?>">
+            <a href="forms.php" class="<?= ($activePage == 'forms') ? 'active':''; ?> hover-left">
                 <span class="icon"><i class="far fa-address-card"></i></span>
                 <span class="item">Forms</span>
             </a>
         </li>
         <li>
-            <a href="maxlist.php" class="<?= ($activePage == 'maxlist') ? 'active':''; ?>">
+            <a href="maxlist.php" class="<?= ($activePage == 'maxlist') ? 'active':''; ?> hover-left">
                 <span class="icon"><i class="fab fa-maxcdn"></i></span>
                 <span class="item">Max List</span>
             </a>
@@ -181,10 +183,12 @@
             </a>
         </li>
         <li>
-            <a href="profile.php" class="<?= ($activePage == 'profile') ? 'active':''; ?>">
+            <a href="profile.php" class="<?= ($activePage == 'profile') ? 'active':''; ?> hover-left">
                 <span class="icon"><i class="fas fa-user"></i></span>
                 <span class="item">User Profile</span>
             </a>
         </li>
     </ul>
+    </div>
+    
 </div>

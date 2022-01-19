@@ -16,8 +16,8 @@
                 <?php include('../views/inc/nav.php'); ?>
             <!--nav-->
         <!--mid-->
-		<div class="container">
-		<div class="card_width ex1">
+		<div class="container fix_scroll" style="margin-bottom:26px">
+		<div class="card_width">
 		<div style="display:flex" class="card_resp">
 		<div style="width:510px;height: 350px;" class="card_wt">
 			<div class="view_img view_img_resp">

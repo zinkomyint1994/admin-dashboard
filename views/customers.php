@@ -16,53 +16,51 @@
                <?php include('../views/inc/nav.php'); ?>
             <!--nav-->
         <!--mid-->
-		<div class="container">
+	<div class="container fix_scroll">
 			<!--scroll-->
-	<div class="ex1">
+	<div class="">
 		<div class="box_p">
           
 			<!--table-->
 			<div>
 				<p class="p-l">All Customers</p>
-				<p class="m-t" style="text-align:right;">
-					<i class="fas fa-search print disp_no"></i>
-                    <input type="text" id="myInput" class="custom_search mt_cust" onkeyup="search()" placeholder="Search email ..">
-				  <i class="fas fa-cloud-download-alt print"></i>
-				  <i class="fas fa-print print"></i>
-				</p>
+				<div class="m-t" style="text-align:right;">
+          <input type="text" id="myInput" class="custom_search mt_cust" onkeyup="search()" placeholder="Search email">
+					<i class="fas fa-search disp_no"></i>
+				</div>
 			</div>
-			  	
-				    <div class="grid-container4">
+
+				    <div class="grid-container4" style="overflow-x:auto;">
                         <table id="myTable">
                           <tr class="header">
-                            <th><i class="far fa-square"></i></th>
-                            <th>Email</th>
-                            <th>Address</th>
-                            <th>Company</th>
+                            <th><input type="checkbox" onClick="toggle(this)" /> </th>
+                            <th onclick="sortTable(0)">Email<i class="fas fa-sort" style="padding-left: 4px;"></i></th>
+                            <th onclick="sortTable(1)">Address<i class="fas fa-sort" style="padding-left: 4px;"></i></th>
+                            <th onclick="sortTable(2)">Company<i class="fas fa-sort" style="padding-left: 4px;"></i></th>
                             <th>Balance</th>
                             <th></th>
                           </tr>
                           <tr>
-                            <th><i class="far fa-square"></i></th>
-                            <td>test@gmail.com</td>
-                            <td>63 Poplar Avenue, Cliffside, Virginia, 4592</td>
-                            <td>ACIUM</td>
+                            <th><input type="checkbox" name="foo" value="bar1"></th>
+                            <td>test1@gmail.com</td>
+                            <td>test1</td>
+                            <td>ACIUM1</td>
                             <td>$5,200</td>
                             <td><i class="fas fa-edit"></i></td>
                           </tr>
                            <tr>
-                            <th><i class="far fa-square"></i></th>
+                            <th><input type="checkbox" name="foo" value="bar2"></th>
                             <td>aaa@gmail.com</td>
-                            <td>63 Poplar Avenue, Cliffside, Virginia, 4592</td>
-                            <td>ACIUM</td>
+                            <td>test2</td>
+                            <td>ACIUM2</td>
                             <td>$5,200</td>
                             <td><i class="fas fa-edit"></i></td>
                           </tr>
                           <tr>
-                            <th><i class="far fa-square"></i></th>
+                            <th><input type="checkbox" name="foo" value="bar3"></th>
                             <td>bbb@gmail.com</td>
-                            <td>63 Poplar Avenue, Cliffside, Virginia, 4592</td>
-                            <td>ACIUM</td>
+                            <td>test3</td>
+                            <td>ACIUM3</td>
                             <td>$5,200</td>
                             <td><i class="fas fa-edit"></i></td>
                           </tr>
