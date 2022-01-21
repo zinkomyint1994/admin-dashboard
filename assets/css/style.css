@@ -2744,7 +2744,7 @@ textarea{
 .topnav a.active {
   background-color: #5C859C;
   color: white;
-  height: 63px;
+  height: 50px;
   padding: 23px;
 }
 
@@ -2772,4 +2772,12 @@ textarea{
     display: block;
     text-align: left;
   }
+}
+/*mobile_menu*/
+div, h1, p, li, img {
+    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    transition: width 1s ease-in-out, left 1.5s ease-in-out;
 }

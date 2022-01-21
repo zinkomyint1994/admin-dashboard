@@ -96,7 +96,7 @@
             </div>
             <!--chart_list-->
             <!--card3-->
-            <div style="padding: 11px; margin-bottom: 30px;" class="box_lf in_cen">
+            <div style="padding: 11px; margin-bottom: 70px;" class="box_lf in_cen">
                 <div class="grid-container-inx grid2 grid3">
                     <div class="grid-container2 ind_cen2" style="height:50%">
                         <div class="test1 box_style2">

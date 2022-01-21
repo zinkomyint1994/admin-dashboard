@@ -20,7 +20,7 @@
 
              <!--mid-->
                 <div class="fix_scroll max_wid">
-                    <div class="aa">
+                    <div class="" style="margin-bottom: 70px;">
                         <!--four card-->
                         <div>
                             <div style="display: flex;">

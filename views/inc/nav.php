@@ -1,3 +1,8 @@
+
+<?php
+    $activePage = basename($_SERVER['PHP_SELF'], ".php"); 
+ ?>
+<!--pc_nav-->
 <div class="top_navbar pc_menu_no">
     <div class="left_icons">
         <p class="m-r-15 title_no"><i style="color: #040404;" class="fas fa-bell"></i></p>
@@ -16,21 +21,21 @@
 <!--mobile_menu-->
 <div class="mobile_menu">
     <div class="topnav" id="myTopnav">
-    <a href="index.php" class="active">ジンコミィン</a>
-    <a href="index.php">dashboard</a>
-    <a href="alternative.php">alternative</a>
-    <a href="stock.php">Stock</a>
-    <a href="customers.php">Customer List</a>
-    <a href="auth.php">Customer View</a>
-    <a href="pricing.php">Pricing</a>
-    <a href="help.php">Help</a>
-    <a href="product.php">Product List</a>
-    <a href="card.php">Product View</a>
-    <a href="order.php">Order</a>
-    <a href="userlist.php">UserList</a>
-    <a href="forms.php">Forms</a>
-    <a href="maxlist.php">Max List</a>
-    <a href="profile.php">User Profile</a>
+    <a href="index.php" class="" style="margin-top:13px">ジンコミィン</a>
+    <a href="index.php" class="<?= ($activePage == 'index') ? 'active':''; ?>">dashboard</a>
+    <a href="alternative.php" class="<?= ($activePage == 'alternative') ? 'active':''; ?>">alternative</a>
+    <a href="stock.php" class="<?= ($activePage == 'stock') ? 'active':''; ?>">Stock</a>
+    <a href="customers.php" class="<?= ($activePage == 'customers') ? 'active':''; ?>">Customer List</a>
+    <a href="auth.php" class="<?= ($activePage == 'auth') ? 'active':''; ?>">Customer View</a>
+    <a href="pricing.php" class="<?= ($activePage == 'pricing') ? 'active':''; ?>">Pricing</a>
+    <a href="help.php" class="<?= ($activePage == 'help') ? 'active':''; ?>">Help</a>
+    <a href="product.php" class="<?= ($activePage == 'product') ? 'active':''; ?>">Product List</a>
+    <a href="card.php" class="<?= ($activePage == 'card') ? 'active':''; ?>">Product View</a>
+    <a href="order.php" class="<?= ($activePage == 'order') ? 'active':''; ?>">Order</a>
+    <a href="userlist.php" class="<?= ($activePage == 'userlist') ? 'active':''; ?>">UserList</a>
+    <a href="forms.php" class="<?= ($activePage == 'forms') ? 'active':''; ?>">Forms</a>
+    <a href="maxlist.php" <?= ($activePage == 'maxlist') ? 'active':''; ?>>Max List</a>
+    <a href="profile.php" class="<?= ($activePage == 'profile') ? 'active':''; ?>">User Profile</a>
     <a href="javascript:void(0);" class="icon" onclick="mobile_menu(this)">
         <!-- <i class="fa fa-bars"></i> -->
           <div class="bar4"></div>
