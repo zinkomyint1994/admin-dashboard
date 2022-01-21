@@ -185,7 +185,7 @@ function mobile_menu(x) {
 function final() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
-
+//oustide click
 window.onclick = function (event) {
     if (!event.target.matches(".dropbtn")) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -200,5 +200,5 @@ window.onclick = function (event) {
 };
 
 window.addEventListener("resize", () => {
-       // alert('fefefe')
+       // alert('resize')
 });

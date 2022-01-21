@@ -367,6 +367,10 @@
         width: 100%;
         margin: auto;
     }
+    .alt_wid{
+        width: 100%;
+        margin: auto;
+    }
     .pc_menu_no{
         display: none;
     }
