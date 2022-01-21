@@ -6,22 +6,26 @@
         <title>Dashboard</title>
        <?php include('../views/inc/header.php'); ?>
     </head>
-    <body id="bbb">
-        <div class="menu"></div>
+    <body id="body-pd">
         <div class="wrapper">
-            <div class="section">
-                 <!--nav-->
-                    <?php include('../views/inc/nav.php'); ?>
-                <!--nav-->
-                <!--mid-->
-                <div class="container fix_scroll">
+           <div class="section">
+            <!--nav-->
+            <?php include('../views/inc/nav.php'); ?>
+            <!--nav-->
+           </div>
+        </div>
+            <!--sidebar-->
+             <?php include('../views/inc/left_menu.php'); ?>
+            <!--sidebar-->
+             <!--mid-->
+                <div class="fix_scroll alt_wid">
                     <!--scroll-->
-                    <div class="">
+                    <div style="margin-bottom: 59px;">
                         <!--chartlist-->
                         <div class="aa">
-                            <div class="container" style="display: flex;margin:-21px">
+                            <div class="container" style="display: flex;">
                                 <!-- LINE CHART BLOCK (LEFT-CONTAINER) -->
-                                <div class="line-chart-block block" style="margin-top: -11px;">
+                                <div class="line-chart-block block">
                                     <div class="line-chart">
                                         <div class="grafico">
                                             <ul class="eje-y">
@@ -143,11 +147,6 @@
                     <!--scroll-->
                 </div>
                 <!--mid-->
-            </div>
-            <!--sidebar-->
-             <?php include('../views/inc/left_menu.php'); ?>
-            <!--sidebar-->
-        </div>
         <script src="../assets/js/panel.js"></script>
     </body>
 </html>

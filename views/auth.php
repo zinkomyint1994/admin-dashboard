@@ -6,21 +6,27 @@
         <title>Dashboard</title>
           <?php include('../views/inc/header.php'); ?>
     </head>
-    <body id="bbb">
-        <div class="wrapper">
-            <div class="section">
+    <body id="body-pd">
+           <div class="wrapper">
+               <div class="section">
                 <!--nav-->
-                  <?php include('../views/inc/nav.php'); ?>
+                <?php include('../views/inc/nav.php'); ?>
                 <!--nav-->
-                <!--mid-->
-                <div class="container fix_scroll">
+            </div>
+        </div>   
+            <!--sidebar-->
+                <?php include('../views/inc/left_menu.php'); ?>
+            <!--sidebar-->
+
+            <!--mid-->
+                <div class="fix_scroll auth_wid">
                     <!--scroll-->
                     <div class="width_auth">
                         <!--four card-->
-                        <div>
+                        <div style="margin-bottom: 80px;">
                             <div class="grid-container5 auth_center gird5_st">
                                 <div class="item1 cust_cent">
-                                    <div class="box_style6" style="background: #054468a6;border-radius: 8px;">
+                                    <div class="box_style6" style="margin-bottom: 6px;;background: #054468a6;border-radius: 8px;">
                                         <img src="../assets/images/img_avatar.png" alt="profile" class="cir_image" />
                                         <p class="view_cust3">ZIN KO MYINT</p>
                                         <p class="view_cust3">ELECTRONIC ARTS LTD</p>
@@ -58,7 +64,7 @@
                                 </div>
 
                                 <div class="item2 cust_cent">
-                                    <div class="box_style6" style="background: #054468a6;border-radius: 8px;">
+                                    <div class="box_style6" style="background: #054468a6;border-radius: 8px;margin-bottom: 6px;">
                                         <div class="bill_txt2">
                                             <p>Billing</p>
                                         </div>
@@ -103,7 +109,7 @@
                                 </div>
 
                                 <div class="item3 cust_cent" style="background: none;">
-                                    <div class="box_style6" style="border-radius: 8px;line-height: 26px;height: 223px; margin-bottom: 21px; background: #054468a6;">
+                                    <div class="box_style6" style="border-radius: 8px;line-height: 26px;height: 50%; margin-bottom: 2px; background: #054468a6;">
                                         <div class="bill_txt2">
                                             <p>Billing</p>
                                         </div>
@@ -121,7 +127,7 @@
                                             <p class="order">Order Confirmation</p>
                                         </div>
                                     </div>
-                                    <div class="box_style6" style="border-radius: 8px;margin-bottom: 25px;line-height: 22px;height: 49%; background: #054468a6;;">
+                                    <div class="box_style6 auth_wid2 auth_wid3">
                                         <div class="bill_txt2">
                                             <p>Other Actions</p>
                                         </div>
@@ -150,11 +156,6 @@
                     <!--scroll-->
                 </div>
                 <!--mid-->
-            </div>
-            <!--sidebar-->
-                <?php include('../views/inc/left_menu.php'); ?>
-            <!--sidebar-->
-        </div>
         <script src="../assets/js/panel.js"></script>
     </body>
 </html>

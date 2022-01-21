@@ -6,15 +6,21 @@
         <title>Dashboard</title>
           <?php include('../views/inc/header.php'); ?>
     </head>
-    <body id="bbb">
+    <body id="body-pd">
         <div class="wrapper">
             <div class="section">
-                 <!--nav-->
-                    <?php include('../views/inc/nav.php'); ?>
-                 <!--nav-->
-                <!--mid-->
-                <div class="container fix_scroll">
-                    <div class="aa">
+            <!--nav-->
+            <?php include('../views/inc/nav.php'); ?>
+            <!--nav-->
+            </div>
+        </div>
+            <!--sidebar-->
+                <?php include('../views/inc/left_menu.php'); ?>
+            <!--sidebar-->
+
+              <!--mid-->
+                <div class="fix_scroll help_wid">
+                    <div class="" style="margin-bottom:80px">
                         <div class="search">
                             <p class="search_icons"><i class="fas fa-search"></i></p>
                             <input class="help_search" placeholder="search keyword base" />
@@ -75,12 +81,7 @@
                     <!--four card-->
                 </div>
                 <!--mid-->
-                 </div>
-            </div>
-            <!--sidebar-->
-                <?php include('../views/inc/left_menu.php'); ?>
-            <!--sidebar-->
-        </div>
+
         <script src="../assets/js/panel.js"></script>
     </body>
 </html>

@@ -6,22 +6,26 @@
         <title>Dashboard</title>
         <?php include('../views/inc/header.php'); ?>
     </head>
-    <body id="bbb">
-        <div class="menu"></div>
-
+    <body id="body-pd">
         <div class="wrapper">
             <div class="section">
-                <!--nav-->
-                    <?php include('../views/inc/nav.php'); ?>
-                <!--nav-->
-                <!--mid-->
-                <div class="container fix_scroll form_ml">
+            <!--nav-->
+            <?php include('../views/inc/nav.php'); ?>
+            <!--nav-->
+           </div>
+       </div>
+            <!--sidebar-->
+                <?php include('../views/inc/left_menu.php'); ?>
+            <!--sidebar-->
+
+             <!--mid-->
+                <div class="fix_scroll form_ml form_wid">
                     <div class="">
                         <div class="center">
-                            <div>
+                            <div style="margin-bottom:80px">
                                 <div class="grid-containe-fo gird_he2" style="height: 780px;">
                                     <!--form_product-->
-                                    <div class="item1 card_wt" style="background-color: white;">
+                                    <div class="item1" style="background-color: white;">
                                         <div style="display: flex;">
                                             <p class="order_title">Order #1028</p>
                                         </div>
@@ -35,7 +39,7 @@
                                                 <p class="oview">Overview</p>
                                                 <p class="date">Sep 14,2021 at 00:23AM</p>
                                             </div>
-                                            <hr />
+                                        <!--     <hr /> -->
                                             <div class="grid-containe-se2 card_resp" style="border:1px solid #c6abab;
                                             border-radius: 8px;margin-top: 4px;">
                                                 <form id="search-model" class="mt_resp" style="display: flex;">
@@ -177,8 +181,8 @@
                                     </div>
 
                                     <!--form_product-->
-                                    <div class="item2 card_wt">
-                                        <div class="box_style" style="height: 46%;margin-top: 65px;width: 100%; background: #054468a6;">
+                                    <div class="item2">
+                                        <div class="box_style card_wt">
                                             <!--card-->
                                             <div>
                                                 <img src="../assets/images/profile.png" width="65px" style="" />
@@ -211,11 +215,6 @@
                     </div>
                 </div>
                 <!--mid-->
-            </div>
-            <!--sidebar-->
-                <?php include('../views/inc/left_menu.php'); ?>
-            <!--sidebar-->
-        </div>
         <script src="../assets/js/panel.js"></script>
     </body>
 </html>

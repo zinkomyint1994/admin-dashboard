@@ -1,6 +1,75 @@
 @media only screen and (min-width: 320px) and (max-width: 470px) {
+    .pc_menu_no{
+        display: none;
+    }
     .log_form{
         width: 85%;
+    }
+    .ind_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .alt_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .stk_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .cust_list{
+        width: 100%;
+        margin: auto;
+    }
+    .custom_search{
+        width: 100%;
+    }
+    .auth_wid{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .auth_wid2{
+        height: 200px !important;
+    }
+    .pric_wid{
+        width: 100%;
+        margin: auto;
+    }
+     .help_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .pro_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .card_wid{
+        width: 100%;
+        margin: auto;
+    }
+     .ord_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .usr_wid{
+        width: 100%;
+        margin: auto;
+    }
+     .form_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .max_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .pro_wid2{
+        width: 100%;
+        margin: auto;
+    }
+    .search_ct{
+        text-align: center;
     }
     /*index_pages resp*/
     .grid-container {
@@ -151,11 +220,9 @@
         padding: 0px;
     }
     .img_width {
-        width: 290px;
+        width: 267px;
     }
-    .card_wt {
-        width: 100% !important;
-    }
+
     /*card*/
     /*userlist_pages resp*/
     .gird6_ul {
@@ -211,10 +278,11 @@
     }
     .top_pf {
         margin: auto;
-        width: 58%;
+        width: 100%;
     }
     .top_pf2 {
-        width: 59%;
+        /*width: 59%;*/
+        width: 100%;
         margin: auto !important;
      /*   margin-top: 88px;*/
     }
@@ -246,6 +314,62 @@
     }
 }
 @media only screen and (max-width: 520px) {
+     .ind_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .stk_wid{
+        width: 100%;
+        margin: auto;
+    }
+     .auth_wid{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+      .pric_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .help_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .pro_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .card_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .ord_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .usr_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .form_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .max_wid{
+        width: 100%;
+        margin: auto;
+    }
+    .pro_wid2{
+        width: 100%;
+        margin: auto;
+    }
+    .cust_list{
+        width: 100%;
+        margin: auto;
+    }
+    .pc_menu_no{
+        display: none;
+    }
     .title_no{
         display: none;
     }
@@ -261,7 +385,7 @@
         margin-bottom: 58px;
     }
     .in_mt {
-        margin-top: 122px;
+       /* margin-top: 122px;*/
     }
     .box_lf {
         margin-left: 44px;
@@ -392,7 +516,8 @@
        /* width: 43%;*/
     }
     .top_pf2 {
-        width: 59%;
+        /*width: 59%;*/
+        width: 100%;
         margin: auto;
         margin-top: 88px;
     }
@@ -425,6 +550,9 @@
 
 }
 @media only screen and (max-width: 768px) {
+    .auth_wid3{
+        height: 230px !important;
+    }
      .title_no{
         display: none;
     }
@@ -439,14 +567,18 @@
         grid-template-columns: inherit;
     }
     .ind_mt {
-        margin-top: 118px;
+     /*   margin-top: 118px;*/
+     top: -41px;
+    width: 100%;
     }
     .mt-no {
         margin-bottom: 58px;
     }
     .in_cen {
         margin: auto;
-        width: 65%;
+        width: calc(100% - 30px);
+        margin: 10px;
+        margin-top: 205px;
     }
   
     /*alter*/
@@ -456,7 +588,7 @@
     /*alter*/
     /*stock_pages resp*/
     .stock_ml{
-       margin: 0px !important;
+      /* margin: 0px !important;*/
     }
     .grid_3 {
         display: contents;
@@ -501,7 +633,7 @@
         padding: 0px;
     }
     .img_width {
-        width: 290px;
+        width: 267px;
     }
     .card_wt {
         width: 100% !important;
@@ -584,7 +716,8 @@
        /* width: 43%;*/
     }
     .top_pf2 {
-        width: 59%;
+       /* width: 59%;*/
+       width: 100%;
         margin: auto;
         margin-top: 88px;
     }
@@ -625,6 +758,30 @@
 
 }
 @media only screen and (max-width: 991.98px) {
+    .pf_wid{
+       /*width: 50%; */
+    }
+    .grid-containe-bpof{
+        display: grid;
+        grid-template-columns: 14% 60% 20%;
+        grid-gap: 10px;
+        padding: 10px;
+    }
+    .grid-container-alt2 {
+          display: grid;
+          grid-template-columns: 50% 50%;
+          grid-gap: 8px;
+        }
+    .ind_cen2{
+        margin-top: 192px;
+    }
+    .chart_height{
+        height: 32%;
+    }
+    .ind_card{
+        height: 100% !important;
+        margin-top: 0px !important;
+    }
     .bt_wd{
         width: 176px;
     }
@@ -638,7 +795,7 @@
     }
     .pro_dsp{
         /*background-color: seagreen;*/
-        margin: 24px;
+        margin: 5px;
     }
     .stock_bx{
         border: 1px solid #980c0c;
@@ -651,8 +808,8 @@
     }
     /*index*/
     .in_mt {
-        top: 48px;
-        /*width: 540px;*/
+     /*   top: -41px;*/
+        width: 100%;
     }
     .dash_fonts2 {
     font-size: 13px;
@@ -675,7 +832,7 @@
     }
     .box_style4{
         /*width: 405px;*/
-        width: 92%;
+        width: 100%;
         padding-top: 13px;
         margin: 6px;
 
@@ -737,7 +894,7 @@
         padding: 0px;
     }
     .img_width {
-        width: 290px;
+        width: 267px;
     }
     .card_wt {
         width: 100% !important;
@@ -769,6 +926,8 @@
     }
     .vis_tp{
         margin-top: -2px;
+   /*    margin-top: -322px;
+        margin-left: -27px;*/
     }
     
     /*profile*/
@@ -847,5 +1006,14 @@
     .mail_resp {
         display: none;
     }
+     .mobile_menu{
+        display: none;
+    }
 }
 /*latest*/
+ @media screen and (min-width: 516px) {
+   .mobile_menu {
+       display: none; /* this hides the menu on bigger screens */
+       background-color: rgba(0,0,0,0.8);
+    }
+ }

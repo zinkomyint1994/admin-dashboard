@@ -1,194 +1,107 @@
 <?php
     $activePage = basename($_SERVER['PHP_SELF'], ".php"); 
  ?>
-<!--menu icons-->
-<div class="test">
-    <ul>
-        <li>
-            <a class="menu_icons" href="index.php">
-                <span class="icon"><i class="fas fa-desktop"></i></span>
-            </a>
-        </li>
-        <li class="m-t-14">
-            <a href="alternative.php" class="menu_icons">
-                <span class="icon"><i class="fas fa-business-time"></i></span>
-            </a>
-        </li>
-        <li class="m-t-14">
-            <a href="stock.php" class="menu_icons">
-                <span class="icon"><i class="fas fa-chart-line"></i></span>
-            </a>
-        </li>
-        <li class="m-t-14">
-            <a href="customers.php" class="menu_icons">
-                <span class="icon"><i class="fa fa-users"></i></span>
-            </a>
-        </li>
-        <li class="m-t-14">
-            <a href="pricing.php" class="menu_icons">
-                <span class="icon"><i class="fas fa-comment-dollar"></i></span>
-            </a>
-        </li>
-        <li class="m-t-14">
-            <a href="help.php" class="menu_icons">
-                <span class="icon"><i class="fas fa-question-circle"></i></span>
-            </a>
-        </li>
-        <li class="m-t-14">
-            <a href="product.php" class="menu_icons">
-                <span class="icon"><i class="fa fa-product-hunt"></i></span>
-            </a>
-        </li>
-        <li class="m-t-14">
-            <a href="order.php" class="menu_icons">
-                <span class="icon"><i class="fas fa-archive"></i></span>
-            </a>
-        </li>
-        <li class="m-t-14">
-            <a href="userlist.php" class="menu_icons">
-                <span class="icon"><i class="fas fa-clipboard-list"></i></span>
-            </a>
-        </li>
-        <li class="m-t-14">
-            <a href="forms.php" class="menu_icons">
-                <span class="icon"><i class="far fa-address-card"></i></span>
-            </a>
-        </li>
-        <li class="m-t-14">
-            <a href="maxlist.php" class="menu_icons">
-                <span class="icon"><i class="fab fa-maxcdn"></i></span>
-            </a>
-        </li>
-        <li class="m-t-14">
-            <a href="#" class="menu_icons" style="cursor: not-allowed;">
-                <span class="icon"><i class="fas fa-shield-alt"></i></span>
-            </a>
-        </li>
-        <li class="m-t-14">
-            <a href="#" class="menu_icons" style="cursor: not-allowed;">
-                <span class="icon"><i class="fas fa-credit-card"></i></span>
-            </a>
-        </li>
-        <li class="m-t-14">
-            <a href="profile.php" class="menu_icons">
-                <span class="icon"><i class="fas fa-user"></i></span>
-            </a>
-        </li>
-    </ul>
-</div>
-<!--menu icons-->
 
-<div class="sidebar">
-   
-    <div class="menu_scroll">
-         <p class="logo2">ジンコミィン</p>
-         <ul>
-        <li>
-            <a href="index.php" class="<?= ($activePage == 'index') ? 'active':''; ?> hover-left">
-                <span class="icon"><i class="fas fa-desktop"></i></span>
-                <span class="item">Dashboard</span>
-            </a>
-        </li>
-        <li>
-            <a href="alternative.php" class="<?= ($activePage == 'alternative') ? 'active':''; ?> hover-left">
-                <span class="icon"><i class="fas fa-business-time"></i></span>
-                <span class="item">Alternative</span>
-            </a>
-        </li>
-        <li>
-            <a href="stock.php" class="<?= ($activePage == 'stock') ? 'active':''; ?> hover-left">
-                <span class="icon"><i class="fas fa-chart-line"></i></span>
-                <span class="item">Stock Management</span>
-            </a>
-        </li>
 
-        <p class="logo">PAGES</p>
-        <li>
-            <div class="dropdown">
-                <a role="button" onclick="customer()" class="dropbtn <?= ($activePage == 'customers' || $activePage == 'auth') ? 'active':''; ?> hover-left">
-                    <span class="icon"><i class="fa fa-users"></i></span>
-                    Customers <i style="margin-left: 6px;font-size: 11px" class="fas fa-chevron-down"></i>
-                </a>
-                <div id="myDropdown" class="drop_t hover-left">
-                    <a href="customers.php" style="text-align: center">Customers List</a>
-                    <a href="auth.php" style="text-align: center">Customer View</a>
+<div class="l-navbar fix_scroll pc_menu_no" id="navbar">
+    <nav class="nav">
+        <div>
+            <div class="nav__brand">
+                <!--   <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon> -->
+                <div onclick="test(this)" class="nav__toggle" id="nav-toggle">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
                 </div>
+                <a href="#" class="nav__logo">ジンコミィン</a>
             </div>
-        </li>
-
-        <li>
-            <a href="pricing.php" class="<?= ($activePage == 'pricing') ? 'active':''; ?> hover-left">
-                <span class="icon"><i class="fas fa-comment-dollar"></i></span>
-                <span class="item">Pricing</span>
-            </a>
-        </li>
-        <li>
-            <a href="help.php" class="<?= ($activePage == 'help') ? 'active':''; ?> hover-left">
-                <span class="icon"><i class="fas fa-question-circle"></i></span>
-                <span class="item">Help</span>
-            </a>
-        </li>
-        <li>
-            <div class="dropdown">
-                <a role="button" onclick="product()" class="dropbtn <?= ($activePage == 'product' || $activePage == 'card') ? 'active':''; ?> hover-left">
-                    <span class="icon"><i class="fa fa-product-hunt"></i></span>
-                    Products <i style="padding-left: 16px;font-size: 11px" class="fas fa-chevron-down"></i>
+            <div class="nav__list">
+                <a href="index.php" class="nav__link <?= ($activePage == 'index') ? 'active':''; ?>">
+                    <span class="nav__icon"><i class="fas fa-desktop"></i></span>
+                    <span class="nav__name">Dashboard</span>
                 </a>
-                <div id="pro" class="drop_t hover-left">
-                    <a href="product.php" style="text-align: center">Products List</a>
-                    <a href="card.php" style="text-align: center">Product View</a>
+                <a href="alternative.php" class="nav__link <?= ($activePage == 'alternative') ? 'active':''; ?>">
+                    <span class="nav__icon"><i class="fas fa-business-time"></i></span>
+                    <span class="nav__name">alternative</span>
+                </a>
+                <a href="stock.php" class="nav__link <?= ($activePage == 'stock') ? 'active':''; ?>">
+                    <span class="nav__icon"><i class="fas fa-chart-line"></i></span>
+                    <span class="nav__name">Stock</span>
+                </a>
+
+                <div class="nav__link collapse <?= ($activePage == 'customers' || $activePage == 'auth') ? 'active':''; ?>">
+                    <span class="nav__icon"><i class="fa fa-users"></i></span>
+                    <span class="nav__name">Customer</span>
+
+                    <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                    <ul class="collapse__menu">
+                        <a href="customers.php" class="collapse__sublink" style="line-height: 40px;">Customers_List</a>
+                        <a href="auth.php" class="collapse__sublink">Customer_View</a>
+                    </ul>
                 </div>
+
+                <a href="pricing.php" class="nav__link <?= ($activePage == 'pricing') ? 'active':''; ?>">
+                    <span class="nav__icon"><i class="fas fa-comment-dollar"></i></span>
+                    <span class="nav__name">Pricing</span>
+                </a>
+
+                <a href="help.php" class="nav__link <?= ($activePage == 'help') ? 'active':''; ?>">
+                    <span class="nav__icon"><i class="fas fa-question-circle"></i></span>
+                    <span class="nav__name">Help</span>
+                </a>
+
+                <div class="nav__link collapse <?= ($activePage == 'product' || $activePage == 'card') ? 'active':''; ?>">
+                    <span class="nav__icon"><i class="fa fa-product-hunt"></i></span>
+                    <span class="nav__name">Product</span>
+
+                    <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                    <ul class="collapse__menu">
+                        <a href="product.php" class="collapse__sublink" style="line-height: 40px;">Products_List</a>
+                        <a href="card.php" class="collapse__sublink">Product_View</a>
+                    </ul>
+                </div>
+                <a href="order.php" class="nav__link <?= ($activePage == 'order') ? 'active':''; ?>">
+                    <span class="nav__icon"><i class="fas fa-archive"></i></span>
+                    <span class="nav__name">Order</span>
+                </a>
+
+                <a href="userlist.php" class="nav__link <?= ($activePage == 'userlist') ? 'active':''; ?>">
+                    <span class="nav__icon"><i style="font-size: 24px;" class="fas fa-clipboard-list"></i></span>
+                    <span class="nav__name">Userlist</span>
+                </a>
+
+                <a href="forms.php" class="nav__link <?= ($activePage == 'forms') ? 'active':''; ?>">
+                    <span class="nav__icon"><i class="far fa-address-card"></i></span>
+                    <span class="nav__name">Forms</span>
+                </a>
+
+                <a href="maxlist.php" class="nav__link <?= ($activePage == 'maxlist') ? 'active':''; ?>">
+                    <span class="nav__icon"><i class="fab fa-maxcdn"></i></span>
+                    <span class="nav__name">Max List</span>
+                </a>
+
+                <a href="#" class="nav__link" style="background-color: red; cursor: not-allowed;">
+                    <span class="nav__icon"><i class="fas fa-shield-alt"></i></span>
+                    <span class="nav__name">Session/Auth</span>
+                </a>
+
+                <a href="#" class="nav__link" style="background-color: red; cursor: not-allowed;">
+                    <span class="nav__icon"><i class="fas fa-credit-card"></i></span>
+                    <span class="nav__name">Left Sidebar Card</span>
+                </a>
+
+                <a href="profile.php" class="nav__link <?= ($activePage == 'profile') ? 'active':''; ?>">
+                    <span class="nav__icon"><i class="fas fa-user"></i></span>
+                    <span class="nav__name">User Profile</span>
+                </a>
             </div>
-        </li>
-        <li>
-            <a href="order.php" class="<?= ($activePage == 'order') ? 'active':''; ?> hover-left">
-                <span class="icon"><i class="fas fa-archive"></i></span>
-                <span class="item">Order</span>
-            </a>
-        </li>
-        <li>
-            <a href="userlist.php" class="<?= ($activePage == 'userlist') ? 'active':''; ?> hover-left">
-                <span class="icon"><i class="fas fa-clipboard-list"></i></span>
-                <span class="item">User list</span>
-            </a>
-        </li>
-        <li>
-            <a href="forms.php" class="<?= ($activePage == 'forms') ? 'active':''; ?> hover-left">
-                <span class="icon"><i class="far fa-address-card"></i></span>
-                <span class="item">Forms</span>
-            </a>
-        </li>
-        <li>
-            <a href="maxlist.php" class="<?= ($activePage == 'maxlist') ? 'active':''; ?> hover-left">
-                <span class="icon"><i class="fab fa-maxcdn"></i></span>
-                <span class="item">Max List</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <span class="icon"><i class="fas fa-shield-alt"></i></span>
-                <span class="item" style="cursor: not-allowed;">
-                    Session/Auth
-                    <p class="btn_diable">disable</p>
-                </span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <span class="icon"><i class="fas fa-credit-card"></i></span>
-                <span class="item" style="cursor: not-allowed;">
-                    Left Sidebar Card
-                    <p class="btn_diable">disable</p>
-                </span>
-            </a>
-        </li>
-        <li>
-            <a href="profile.php" class="<?= ($activePage == 'profile') ? 'active':''; ?> hover-left">
-                <span class="icon"><i class="fas fa-user"></i></span>
-                <span class="item">User Profile</span>
-            </a>
-        </li>
-    </ul>
-    </div>
-    
+        </div>
+
+        <a href="../index.php" class="nav__link">
+            <span class="nav__icon"><i class="fa fa-sign-out" aria-hidden="true"></i></span>
+            <span class="nav__name">Log Out</span>
+        </a>
+    </nav>
 </div>

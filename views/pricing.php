@@ -6,18 +6,24 @@
         <title>Dashboard</title>
          <?php include('../views/inc/header.php'); ?>
     </head>
-    <body id="bbb">
+    <body id="body-pd">
         <div class="wrapper">
             <div class="section">
-                <!--nav-->
-                    <?php include('../views/inc/nav.php'); ?>
-                 <!--nav-->
-                <!--mid-->
-                <div class="container fix_scroll">
+            <!--nav-->
+            <?php include('../views/inc/nav.php'); ?>
+            <!--nav-->
+            </div>
+        </div>
+            <!--sidebar-->
+                <?php include('../views/inc/left_menu.php'); ?>
+            <!--sidebar-->
+
+            <!--mid-->
+                <div class="fix_scroll pric_wid">
                     <!--scroll-->
                     <div class="price">
                         <!--four card-->
-                        <div>
+                        <div style="margin-bottom: 80px;">
                             <div class="grid-containe-pric gird5_st" style="margin-top: -30px;">
                                 <div class="item1 pr_wid">
                                     <div class="box_style6 width_pric" style="border-radius: 8px;width: 100%; height: 100%;line-height: 21px;">
@@ -106,11 +112,7 @@
                     <!--scroll-->
                 </div>
                 <!--mid-->
-            </div>
-            <!--sidebar-->
-                <?php include('../views/inc/left_menu.php'); ?>
-            <!--sidebar-->
-        </div>
+ 
         <script src="../assets/js/panel.js"></script>
     </body>
 </html>

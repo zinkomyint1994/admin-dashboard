@@ -76,9 +76,9 @@
 }
 
 .wrapper .section {
-  width: calc(100% - 225px);
+ /* width: calc(100% - 225px);
   margin-left: 225px;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease;*/
 }
 
 .wrapper .section .top_navbar {

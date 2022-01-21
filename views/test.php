@@ -1,93 +1,312 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {
-  font-family: "Lato", sans-serif;
+    <head>
+        <meta charset="utf-8" />
+        <title>Dashboard</title>
+        <?php include('../views/inc/header.php'); ?>
+        <style type="text/css">
+            .topnav {
+  overflow: hidden;
+  background-color: #333;
 }
 
-/* On mouse-over */
-.sidenav a:hover, .dropdown-btn:hover {
-  color: #f1f1f1;
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-/* Main content */
-.main {
-  margin-left: 200px; /* Same as the width of the sidenav */
-  font-size: 20px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-/* Add an active class to the active dropdown button */
-.active {
-  background-color: green;
+.topnav a.active {
+  background-color: #04AA6D;
   color: white;
 }
 
-/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-.dropdown-container {
+.topnav .icon {
   display: none;
-  background-color: #262626;
-  padding-left: 8px;
 }
 
-/* Optional: Style the caret down icon */
-.fa-caret-down {
-  float: right;
-  padding-right: 8px;
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
 }
 
-/* Some media queries for responsiveness */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 </style>
-</head>
-<body>
+        </style>
+    </head>
+    <body id="body-pd">
+        <!--mobile_menu-->
+        <?php include('../views/inc/left_menu.php'); ?>
+         <!--mobile_menu-->
+        <div class="">
+            <!--nav-->
+            <?php include('../views/inc/nav.php'); ?>
+            <!--nav-->
+        </div>
+        <!--sidebar-->
+        <?php include('../views/inc/left_menu.php'); ?>
+        <!--sidebar-->
+        <!--mid-->
+        <div class="fix_scroll" style="margin-left: 98px;">
+            <!--four card-->
+            <div>
+                <div class="grid-container">
+                    <div class="item1">
+                        <div class="box_style">
+                            <div class="dash_icons">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="dash_fonts">
+                                10,495
+                            </div>
+                            <div class="dash_fonts2">
+                                New Members
+                            </div>
+                        </div>
+                    </div>
 
-<div class="sidenav">
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#clients">Clients</a>
-  <a href="#contact">Contact</a>
-  <button class="dropdown-btn">Dropdown 
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-container">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-  <a href="#contact">Search</a>
-</div>
+                    <div class="item2">
+                        <div class="box_style">
+                            <div class="dash_icons">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="dash_fonts">
+                                30,942
+                            </div>
+                            <div class="dash_fonts2">
+                                Places Added
+                            </div>
+                        </div>
+                    </div>
 
-<div class="main">
-  <h2>Sidebar Dropdown</h2>
-  <p>Click on the dropdown button to open the dropdown menu inside the side navigation.</p>
-  <p>This sidebar is of full height (100%) and always shown.</p>
-  <p>Some random text..</p>
-</div>
+                    <div class="item3">
+                        <div class="box_style">
+                            <div class="dash_icons">
+                                <i class="fas fa-info-circle"></i>
+                            </div>
+                            <div class="dash_fonts">
+                                45,269
+                            </div>
+                            <div class="dash_fonts2">
+                                Support Members
+                            </div>
+                        </div>
+                    </div>
 
-<script>
+                    <div class="item4">
+                        <div class="box_style">
+                            <div class="dash_icons">
+                                <i class="fas fa-tags"></i>
+                            </div>
+                            <div class="dash_fonts">
+                                20,965
+                            </div>
+                            <div class="dash_fonts2">
+                                Tags Used
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--four card-->
+            <!--chart_list-->
+            <div class="chart_height char_height">
+                <div class="igFrameBar in_mt ind_mt ch_width">
+                    <div class="igData igData1"></div>
+                    <div class="igData igData2"></div>
+                    <div class="igData igData3"></div>
+                    <div class="igData igData4"></div>
+                    <div class="igData igData5 disp_no"></div>
+                    <div class="igData igData6 disp_no"></div>
+                    <div class="igData igData7 disp_no"></div>
+                    <div class="igData igData8 disp_no"></div>
+                    <div class="igData igData9 disp_no"></div>
+                    <div class="igData igData10 disp_no"></div>
+                </div>
+            </div>
+            <!--chart_list-->
+            <!--card3-->
+            <div style="padding: 11px; margin-bottom: 30px;" class="box_lf in_cen">
+                <div class="grid-container-inx grid2 grid3">
+                    <div class="grid-container2">
+                        <div class="test1 box_style2" style="height: 70%;">
+                            <div class="dash_icons">
+                                <i class="fas fa-blog"></i>
+                            </div>
+                            <div class="dash_fonts">
+                                48
+                            </div>
+                            <div class="dash_fonts2">
+                                New Posts
+                            </div>
+                        </div>
+                        <div class="test1 box_style2 mt-no" style="height: 70%;">
+                            <div class="dash_icons">
+                                <i class="fas fa-paperclip"></i>
+                            </div>
+                            <div class="dash_fonts">
+                                291
+                            </div>
+                            <div class="dash_fonts2">
+                                Attached Files
+                            </div>
+                        </div>
+                        <div class="test3 box_style2 mt-no in-t-22" style="height: 70%; top: -61px; position: relative;">
+                            <div class="dash_icons">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="dash_fonts">
+                                291
+                            </div>
+                            <div class="dash_fonts2">
+                                Comments
+                            </div>
+                        </div>
+                        <div class="test4 box_style2 in-t-22" style="height: 70%; top: -61px; position: relative;">
+                            <div class="dash_icons">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <div class="dash_fonts">
+                                1100
+                            </div>
+                            <div class="dash_fonts2">
+                                Total Views
+                            </div>
+                        </div>
+                    </div>
 
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
+                    <div class="item2">
+                        <div class="" style="border: none !important;">
+                            <!--svg-->
+                            <div>
+                                <svg width="200" height="200" viewBox="0 0 36 36">
+                                    <defs>
+                                        <radialGradient id="gradient">
+                                            <stop offset="85%" stop-color="#6d6d6d" />
+                                            <stop offset="100%" stop-color="white" />
+                                        </radialGradient>
+                                    </defs>
+                                    <circle r="15.9155" cx="18" cy="18" fill="transparent" stroke="url(#gradient)" ; stroke-width="3" ; />
+                                    <path
+                                        d="M18 2.0845
+          a 15.9155 15.9155 0 0 1 0 31.831
+          a 15.9155 15.9155 0 0 1 0 -31.831"
+                                        fill="transparent"
+                                        stroke="#3281ff"
+                                        ;
+                                        stroke-width="3"
+                                        ;
+                                        stroke-dasharray="60, 100"
+                                    />
+                                    <text style="font-size: 4px; font-weight: normal;" x="17" y="18" transform="translate(-3,1)">842K</text>
+                                </svg>
+                            </div>
+                            <!--svg-->
+                            <p class="aws">Awesome</p>
+                            <p class="follow">Close to each 1000K followers</p>
+                        </div>
+                    </div>
 
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-  this.classList.toggle("active");
-  var dropdownContent = this.nextElementSibling;
-  if (dropdownContent.style.display === "block") {
-  dropdownContent.style.display = "none";
-  } else {
-  dropdownContent.style.display = "block";
-  }
-  });
-}
-</script>
+                    <div class="item3">
+                        <div class="box_style box_bg">
+                            <svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="graph" aria-labelledby="Sales Figures" role="img">
+                                <title id="title">Sales Figures</title>
 
-</body>
-</html> 
+                                <g class="grid x-grid">
+                                    <line x1="80" x2="80" y1="5" y2="406"></line>
+                                    <line x1="800" x2="800" y1="5" y2="406"></line>
+                                </g>
+                                <g class="grid y-grid">
+                                    <line x1="70" x2="800" y1="400" y2="400"></line>
+                                </g>
+                                <g class="grid y-grid2">
+                                    <line x1="70" x2="800" y1="10" y2="10"></line>
+                                    <line x1="70" x2="800" y1="54" y2="54"></line>
+                                    <line x1="70" x2="800" y1="98" y2="98"></line>
+                                    <line x1="70" x2="800" y1="142" y2="142"></line>
+                                    <line x1="70" x2="800" y1="186" y2="186"></line>
+                                    <line x1="70" x2="800" y1="230" y2="230"></line>
+                                    <line x1="70" x2="800" y1="274" y2="274"></line>
+                                    <line x1="70" x2="800" y1="318" y2="318"></line>
+                                    <line x1="70" x2="800" y1="362" y2="362"></line>
+                                </g>
+                                <g class="labels y-labels">
+                                    <text x="60" y="16">50</text>
+                                    <text x="60" y="406">0</text>
+                                </g>
+                                <g class="labels label-title chartlabels">
+                                    <text x="60" y="160" class="y-label1" transform="rotate(270, 60, 200)">Income Years</text>
+                                </g>
+                                <g class="grid x-grid2" id="xGrid2">
+                                    <line x1="200" x2="200" y1="400" y2="411"></line>
+                                    <line x1="320" x2="320" y1="400" y2="411"></line>
+                                    <line x1="440" x2="440" y1="400" y2="411"></line>
+                                    <line x1="560" x2="560" y1="400" y2="411"></line>
+                                    <line x1="680" x2="680" y1="400" y2="411"></line>
+                                </g>
+
+                                <g class="labels x-labels">
+                                    <text x="140" y="424">2020</text>
+                                </g>
+
+                                <g class="bar" transform="scale(1,-1) translate(0,-390)">
+                                    <rect x="110" y="-10" width="64" height="242.1042">
+                                        <animate attributeName="height" from="-10" to="242.1042" dur="0.5s" fill="freeze" />
+                                    </rect>
+                                    <text x="110" y="252.1042">31.039</text>
+                                </g>
+
+                                <g class="labels x-labels">
+                                    <text x="260" y="424">2021</text>
+                                </g>
+                                <g class="bar" transform="scale(1,-1) translate(0,-390)">
+                                    <rect x="230" y="-10" width="64" height="283.6041">
+                                        <animate attributeName="height" from="-10" to="283.6041" dur="0.5s" fill="freeze" />
+                                    </rect>
+                                    <text x="230" y="293.6041">36.3595</text>
+                                </g>
+
+                                <g class="labels x-labels">
+                                    <text x="380" y="424">2022</text>
+                                </g>
+                                <g class="bar" transform="scale(1,-1) translate(0,-390)">
+                                    <rect x="350" y="-10" width="64" height="331.9329">
+                                        <animate attributeName="height" from="-10" to="331.9329" dur="0.5s" fill="freeze" />
+                                    </rect>
+                                    <text x="350" y="341.9329">42.5555</text>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--card3-->
+        <!--mid-->
+        <script src="../assets/js/panel.js"></script>
+    </body>
+</html>

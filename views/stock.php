@@ -6,15 +6,19 @@
         <title>Dashboard</title>
         <?php include('../views/inc/header.php'); ?>
     </head>
-    <body id="bbb">
-        <div class="menu"></div>
-        <div class="wrapper">
-       <div class="section">
-        <!--nav-->
-           <?php include('../views/inc/nav.php'); ?>
-         <!--nav-->
+    <body id="body-pd">
+       <div class="wrapper">
+           <div class="section">
+            <!--nav-->
+            <?php include('../views/inc/nav.php'); ?>
+            <!--nav-->
+           </div>
+       </div>
+         <!--sidebar-->
+          <?php include('../views/inc/left_menu.php'); ?>
+        <!--sidebar-->
         <!--mid-->
-        <div class="container stock_scroll stock_ml" style="margin-bottom:30px">
+        <div class="stock_scroll stock_ml stk_wid">
               <div class="stock">
             <!--four card-->
             <div>
@@ -97,7 +101,7 @@
             </div>
             <!--four card-->
             <!--second part-->
-            <div>
+            <div style="margin-bottom: 70px;">
                 <div>
                     <div class="grid-cont_stk gird4_st">
                         <div class="item1 it1_st">
@@ -106,7 +110,7 @@
                                     <p style="color: red;">Stock Items</p>
                                     <p class="stock_fo2">Low Stock Items</p>
                                     <p class="stock_fo2">Available Items</p>
-                                    <hr>
+                                  <!--   <hr> -->
                                     <p class="stock_fo2">Purchase Order</p>
                                     <p class="stock_fo2">Quantity Ordered</p>
                                     <p style="letter-spacing: 4px;color: #fff;text-align:center;background-color:#054468a6;border-radius: 4px;">432</p>
@@ -182,11 +186,6 @@
         <!--scroll-->
         </div>
           <!--mid-->
-    </div>
-         <!--sidebar-->
-          <?php include('../views/inc/left_menu.php'); ?>
-        <!--sidebar-->
-    </div>
     <script src="../assets/js/panel.js"></script>
  </body>
 </html>

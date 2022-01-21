@@ -6,14 +6,20 @@
         <title>Dashboard</title>
          <?php include('../views/inc/header.php'); ?>
     </head>
-    <body id="bbb">
+    <body id="body-pd">
         <div class="wrapper">
             <div class="section">
-                <!--nav-->
-                   <?php include('../views/inc/nav.php'); ?>
-                <!--nav-->
-                <!--mid-->
-                <div class="container fix_scroll">
+            <!--nav-->
+            <?php include('../views/inc/nav.php'); ?>
+            <!--nav-->
+            </div>
+        </div>
+            <!--sidebar-->
+                <?php include('../views/inc/left_menu.php'); ?>
+            <!--sidebar-->
+
+             <!--mid-->
+                <div class="fix_scroll max_wid">
                     <div class="aa">
                         <!--four card-->
                         <div>
@@ -59,13 +65,8 @@
                         <!--four card-->
                     </div>
                 </div>
-                <!--mid-->
                  </div>
-            </div>
-            <!--sidebar-->
-                <?php include('../views/inc/left_menu.php'); ?>
-            <!--sidebar-->
-        </div>
+                              <!--mid-->
         <script src="../assets/js/panel.js"></script>
     </body>
 </html>

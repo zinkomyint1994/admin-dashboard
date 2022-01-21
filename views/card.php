@@ -6,25 +6,28 @@
 	<title>Dashboard</title>
 	<?php include('../views/inc/header.php'); ?>
 </head>
-<body id="bbb">
-	<div class="menu">
-		
-	</div>
-	    <div class="wrapper">
-       <div class="section">
+<body id="body-pd">
+	   <div class="wrapper">
+	        <div class="section">
 	        <!--nav-->
-                <?php include('../views/inc/nav.php'); ?>
-            <!--nav-->
-        <!--mid-->
-		<div class="container fix_scroll" style="margin-bottom:26px">
+	        <?php include('../views/inc/nav.php'); ?>
+	        <!--nav-->
+	       </div>
+    	  </div>
+        <!--sidebar-->
+             <?php include('../views/inc/left_menu.php'); ?>
+        <!--sidebar-->
+
+         <!--mid-->
+		<div class="fix_scroll card_wid">
 		<div class="card_width">
 		<div style="display:flex" class="card_resp">
-		<div style="width:510px;height: 350px;" class="card_wt">
+		<div>
 			<div class="view_img view_img_resp">
 				<img class="img_width" src="../assets/images/laptop.png" width="361px">
 			</div>
 		</div>
-		<div style="width:510px;height: 350px;" class="card_wt">
+		<div class="">
 			<p style="margin-bottom: -5px;">Asus VivoBook X512FL-EJ723T 10th Gen Intel Core i5</p>
 			<p class="sku">SKU:0X5OFD</p>
 			<div style="display:flex;margin-bottom: 7px;border-bottom: 1px solid #d9d0d0;">
@@ -54,11 +57,6 @@
 	</div>
 		</div>
           <!--mid-->
-	</div>
-        <!--sidebar-->
-             <?php include('../views/inc/left_menu.php'); ?>
-        <!--sidebar-->
-    </div>
     <script src="../assets/js/panel.js"></script>
 </body>
 </html>
