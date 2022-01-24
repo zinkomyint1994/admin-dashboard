@@ -2240,6 +2240,7 @@ textarea{
 }
 .p-l{
   padding-left: 30px;
+  letter-spacing: 1px;
 }
 .m-b-5{
   margin-bottom: 9px;
@@ -2779,3 +2780,74 @@ div, h1, p, li, img {
     -o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
     transition: width 1s ease-in-out, left 1.5s ease-in-out;
 }
+
+.testing{
+  display: none;
+}
+.email_test{
+  display: nones;
+}
+.aaa{
+ display: nones;
+}
+.talble_off{
+  display: none;
+}
+/*
+  -------------------------
+*/
+/*tooltips*/
+.menudrop_btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown_btn {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_btn-content {
+  display: none;
+  position: fixed;
+  background-color: #5c859c;
+  min-width: 95px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: 30px;
+  border-radius: 10px;
+ /* right: 87%;*/
+ margin: 33px;
+}
+
+.dropdown_btn-content a {
+  color: #fff;
+  padding: 5px 7px;
+  text-decoration: none;
+  display: block;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+.dropdown_btn-content::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  transform: rotate(89deg);
+  border-color: #5c859c  transparent transparent transparent;
+}
+
+
+.dropdown_btn-content a:hover {background-color: #0b5cf2;
+border-radius: 9px;}
+
+.dropdown_btn:hover .dropdown_btn-content {display: block;}
+
+.dropdown_btn:hover .menudrop_btn {background-color: #3e8e41;}
+/*tooltips*/

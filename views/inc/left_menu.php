@@ -29,7 +29,7 @@
                     <span class="nav__name">Stock</span>
                 </a>
 
-                <div class="nav__link collapse <?= ($activePage == 'customers' || $activePage == 'auth') ? 'active':''; ?>">
+                <div id="tooltips_show" class="dropdown_btn nav__link collapse <?= ($activePage == 'customers' || $activePage == 'auth') ? 'active':''; ?>">
                     <span class="nav__icon"><i class="fa fa-users"></i></span>
                     <span class="nav__name">Customer</span>
 
@@ -39,6 +39,10 @@
                         <a href="customers.php" class="collapse__sublink" style="line-height: 40px;">Customers_List</a>
                         <a href="auth.php" class="collapse__sublink">Customer_View</a>
                     </ul>
+                     <div class="dropdown_btn-content">
+                        <a href="customers.php">Customers_List</a>
+                        <a href="auth.php">Customer_View</a>
+                      </div>
                 </div>
 
                 <a href="pricing.php" class="nav__link <?= ($activePage == 'pricing') ? 'active':''; ?>">
@@ -51,7 +55,7 @@
                     <span class="nav__name">Help</span>
                 </a>
 
-                <div class="nav__link collapse <?= ($activePage == 'product' || $activePage == 'card') ? 'active':''; ?>">
+                <div id="tooltips_show" class="dropdown_btn nav__link collapse <?= ($activePage == 'product' || $activePage == 'card') ? 'active':''; ?>">
                     <span class="nav__icon"><i class="fa fa-product-hunt"></i></span>
                     <span class="nav__name">Product</span>
 
@@ -61,6 +65,10 @@
                         <a href="product.php" class="collapse__sublink" style="line-height: 40px;">Products_List</a>
                         <a href="card.php" class="collapse__sublink">Product_View</a>
                     </ul>
+                    <div class="dropdown_btn-content">
+                        <a href="product.php">Products_List</a>
+                        <a href="card.php">Product_View</a>
+                    </div>
                 </div>
                 <a href="order.php" class="nav__link <?= ($activePage == 'order') ? 'active':''; ?>">
                     <span class="nav__icon"><i class="fas fa-archive"></i></span>
