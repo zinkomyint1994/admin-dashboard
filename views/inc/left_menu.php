@@ -33,7 +33,7 @@
                     <span class="nav__icon"><i class="fa fa-users"></i></span>
                     <span class="nav__name">Customer</span>
 
-                    <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+                    <ion-icon  name="chevron-down-outline" class="collapse__link"></ion-icon>
 
                     <ul class="collapse__menu">
                         <a href="customers.php" class="collapse__sublink" style="line-height: 40px;">Customers_List</a>

@@ -1,5 +1,5 @@
   <script src="https://kit.fontawesome.com/c79ff47f0a.js" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
   <link rel="stylesheet" type="text/css" href="../assets/css/left_menu.css" />
   <link rel="stylesheet" type="text/css" href="../assets/css/menu.css" />
